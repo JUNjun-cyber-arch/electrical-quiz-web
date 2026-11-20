@@ -1,0 +1,5949 @@
+{
+  "courseId": "em",
+  "courseName": "电机学",
+  "source": "B站纪真（十万伏特皮卡丘）电机学配套习题与典型例题（第1–5章）",
+  "total": 228,
+  "questions": [
+    {
+      "id": "em-001",
+      "num": 1,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第二节 磁路的基本定律",
+      "type": "single",
+      "stem": "磁路中与电路电压有对应关系的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "磁动势"
+        },
+        {
+          "key": "B",
+          "text": "磁通量"
+        },
+        {
+          "key": "C",
+          "text": "磁感应强度"
+        },
+        {
+          "key": "D",
+          "text": "磁场强度"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 7
+    },
+    {
+      "id": "em-002",
+      "num": 2,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第二节 磁路的基本定律",
+      "type": "single",
+      "stem": "如图所示，Φ 1 ，Φ 2 ，Φ 3 满足什么关系（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "Φ 1+ Φ 2+ Φ 3=0"
+        },
+        {
+          "key": "B",
+          "text": "Φ 1= Φ 2+ Φ 3"
+        },
+        {
+          "key": "C",
+          "text": "Φ 1= Φ 2- Φ 3"
+        },
+        {
+          "key": "D",
+          "text": "Φ 1- Φ 2= Φ 3"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [
+        "assets/images/em/em_q002_p7_x264.webp"
+      ],
+      "answerImages": [],
+      "page": 7
+    },
+    {
+      "id": "em-003",
+      "num": 3,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第二节 磁路的基本定律",
+      "type": "single",
+      "stem": "已知真空磁导率μ 0=4 π× 10 -7 H/m, 某铁心的相对磁导率率为 5000 。铁芯长度为 2m ，截面积为 0.01 m²，则磁阻为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "30400 A/Wb"
+        },
+        {
+          "key": "B",
+          "text": "31847A/Wb"
+        },
+        {
+          "key": "C",
+          "text": "59681A/Wb"
+        },
+        {
+          "key": "D",
+          "text": "74448A/Wb 6"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 7
+    },
+    {
+      "id": "em-004",
+      "num": 4,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第三节 磁性材料及其特性",
+      "type": "fill",
+      "stem": "磁通恒定的磁路称为（ ），磁通随时间变化的磁路称为（ ）。",
+      "options": [],
+      "answer": "直流磁路（恒定磁路）；交流磁路（交变磁路）",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 11
+    },
+    {
+      "id": "em-005",
+      "num": 5,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第三节 磁性材料及其特性",
+      "type": "fill",
+      "stem": "电机和变压器常用的铁芯材料为（ ）。",
+      "options": [],
+      "answer": "硅钢片（铁磁材料/软磁材料）",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 11
+    },
+    {
+      "id": "em-006",
+      "num": 6,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第三节 磁性材料及其特性",
+      "type": "fill",
+      "stem": "铁磁材料的磁导率（ ）,非铁磁材料的磁导率（ ）。",
+      "options": [],
+      "answer": "很大（远大于真空磁导率）；很小（近似等于真空磁导率 μ₀）",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 11
+    },
+    {
+      "id": "em-007",
+      "num": 7,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第三节 磁性材料及其特性",
+      "type": "fill",
+      "stem": "在磁路中，与电路中的电动势作用相同的物理量是（ ）。",
+      "options": [],
+      "answer": "磁动势",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 11
+    },
+    {
+      "id": "em-008",
+      "num": 8,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第三节 磁性材料及其特性",
+      "type": "single",
+      "stem": "若硅钢片的叠片接缝增大，则其磁阻 _________ 。",
+      "options": [
+        {
+          "key": "A",
+          "text": "增加"
+        },
+        {
+          "key": "B",
+          "text": "减小"
+        },
+        {
+          "key": "C",
+          "text": "基本不变"
+        }
+      ],
+      "answer": "A",
+      "explanation": "接缝增大意味着气隙长度增加，空气磁导率远小于铁芯，总磁阻随之增加。",
+      "images": [],
+      "answerImages": [],
+      "page": 11
+    },
+    {
+      "id": "em-009",
+      "num": 9,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第三节 磁性材料及其特性",
+      "type": "single",
+      "stem": "在电机和变压器铁芯材料周围的气隙中（ ）磁场。",
+      "options": [
+        {
+          "key": "A",
+          "text": "存在"
+        },
+        {
+          "key": "B",
+          "text": "不存在"
+        },
+        {
+          "key": "C",
+          "text": "不好确定"
+        }
+      ],
+      "answer": "A",
+      "explanation": "自然界不存在绝对的磁绝缘体，气隙和铁芯周围同样存在磁场（漏磁通与主气隙磁通）。",
+      "images": [],
+      "answerImages": [],
+      "page": 11
+    },
+    {
+      "id": "em-010",
+      "num": 10,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第三节 磁性材料及其特性",
+      "type": "single",
+      "stem": "磁路计算时如果存在多个磁动势，则对（ ）磁路可应用叠加原理。",
+      "options": [
+        {
+          "key": "A",
+          "text": "线性"
+        },
+        {
+          "key": "B",
+          "text": "非线性"
+        },
+        {
+          "key": "C",
+          "text": "所有的"
+        }
+      ],
+      "answer": "A",
+      "explanation": "叠加原理仅适用于线性系统（线性磁路，磁导率为常数）。",
+      "images": [],
+      "answerImages": [],
+      "page": 11
+    },
+    {
+      "id": "em-011",
+      "num": 11,
+      "chapter": "第一章 磁路和磁性材料",
+      "section": "第三节 磁性材料及其特性",
+      "type": "single",
+      "stem": "铁芯叠片越厚，其损耗.（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "越大"
+        },
+        {
+          "key": "B",
+          "text": "越小"
+        },
+        {
+          "key": "C",
+          "text": "不变 10"
+        }
+      ],
+      "answer": "A",
+      "explanation": "铁芯叠片越厚，涡流回路截面积越大、等效电阻越小，涡流损耗越大（P_e ∝ d²）。",
+      "images": [],
+      "answerImages": [],
+      "page": 11
+    },
+    {
+      "id": "em-012",
+      "num": 12,
+      "chapter": "第二章 变压器",
+      "section": "第三节 变压器的型号与额定值（典型计算例题）",
+      "type": "essay",
+      "stem": "【典型例题·铭牌额定值计算】结合图示配电变压器铭牌参数，对该配电变压器的型号含义、额定容量、高/低压侧额定线电压与相电压、额定线电流及变比进行完整计算分析。",
+      "options": [],
+      "answer": "（1）读铭牌参数：三相油浸式配电变压器，查看图示铭牌中的额定容量 S_N、联结组标号、高/低压额定线电压 U_1N / U_2N 与阻抗电压 u_k%；\n（2）三相变压器额定线电流公式：I_1N = S_N / (√3 U_1N)，I_2N = S_N / (√3 U_2N)；\n（3）具体数值代入与相量联结核对请展开下方原版手写板书解答图核对。",
+      "explanation": "三相变压器铭牌上的额定电压和额定电流均指线值，计算时切记分母带 √3。",
+      "images": [
+        "assets/images/em/em_ex01_nameplate_p17.webp"
+      ],
+      "answerImages": [
+        "assets/images/em/em_ex01_sol_p17.webp"
+      ],
+      "page": 16
+    },
+    {
+      "id": "em-013",
+      "num": 13,
+      "chapter": "第二章 变压器",
+      "section": "第三节 变压器的型号与额定值",
+      "type": "single",
+      "stem": "（国网真题）变压器的铭牌型号为 OSFSZ10-H-25000/220 ，以下说法错误的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "该变压器为有载调压自耦变压器"
+        },
+        {
+          "key": "B",
+          "text": "该变压器采用油浸风冷"
+        },
+        {
+          "key": "C",
+          "text": "220kV 为高压侧额定电压"
+        },
+        {
+          "key": "D",
+          "text": "220kV 为低压侧额定电压"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 18
+    },
+    {
+      "id": "em-014",
+      "num": 14,
+      "chapter": "第二章 变压器",
+      "section": "第三节 变压器的型号与额定值",
+      "type": "single",
+      "stem": "（国网真题 2017 届本科第一批）变压器正常运行中，各部分最热点温度的关系是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "绕组>铁芯>油箱>油"
+        },
+        {
+          "key": "B",
+          "text": "绕组>铁芯>油>油箱"
+        },
+        {
+          "key": "C",
+          "text": "绕组>油>铁芯>油箱"
+        },
+        {
+          "key": "D",
+          "text": "铁芯>绕组>油箱>油"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 18
+    },
+    {
+      "id": "em-015",
+      "num": 15,
+      "chapter": "第二章 变压器",
+      "section": "第三节 变压器的型号与额定值",
+      "type": "multi",
+      "stem": "（ 2024 届本科第一批） 变压器发热过程说法正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "铁芯和绕组的发热通过对流和辐射传至油箱壁，体现变压器的损耗"
+        },
+        {
+          "key": "B",
+          "text": "变压器油通过对流和辐射将热量传至变压器之外"
+        },
+        {
+          "key": "C",
+          "text": "发热过程中油箱壁对空气的温升明显，占发热的 60% ～ 70%"
+        },
+        {
+          "key": "D",
+          "text": "大型变压器无需散热装置，仅靠自然冷却等即可满足散热要求"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 18
+    },
+    {
+      "id": "em-016",
+      "num": 16,
+      "chapter": "第二章 变压器",
+      "section": "第三节 变压器的型号与额定值",
+      "type": "multi",
+      "stem": "(2024 届专科 ) 变压器按绕组数分为 （ ） 变压器 .",
+      "options": [
+        {
+          "key": "A",
+          "text": "单绕组"
+        },
+        {
+          "key": "B",
+          "text": "双绕组"
+        },
+        {
+          "key": "C",
+          "text": "三绕组"
+        },
+        {
+          "key": "D",
+          "text": "四绕组 17"
+        }
+      ],
+      "answer": "ABCD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 18
+    },
+    {
+      "id": "em-017",
+      "num": 17,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "single",
+      "stem": "（ 2019 年本科第一批） 当一台双绕组变压器的铁芯磁导较低的热轧硅钢片换为磁导较高的冷轧 硅钢片构成时，对变压器参数的影响说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "变压器的等值漏电抗增大"
+        },
+        {
+          "key": "B",
+          "text": "变压器的等值漏电抗减小"
+        },
+        {
+          "key": "C",
+          "text": "变压器的等值励磁电抗减小"
+        },
+        {
+          "key": "D",
+          "text": "变压器的等值励磁电抗增大"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 21
+    },
+    {
+      "id": "em-018",
+      "num": 18,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "single",
+      "stem": "（ 2020 年第二批本科）变压器饱和后，其励磁电抗和漏磁电抗说法正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "励磁电抗变大，漏磁电抗变小"
+        },
+        {
+          "key": "B",
+          "text": "励磁电抗变大，漏磁电抗变大"
+        },
+        {
+          "key": "C",
+          "text": "励磁电抗变大，漏磁电抗不变"
+        },
+        {
+          "key": "D",
+          "text": "励磁电抗变小，漏磁电抗不变"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 21
+    },
+    {
+      "id": "em-019",
+      "num": 19,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "single",
+      "stem": "（ 2023 届本科一批）影响变压器一次侧漏抗的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "铁芯磁阻"
+        },
+        {
+          "key": "B",
+          "text": "频率"
+        },
+        {
+          "key": "C",
+          "text": "磁路饱和的程度"
+        },
+        {
+          "key": "D",
+          "text": "负荷功率因数"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 21
+    },
+    {
+      "id": "em-020",
+      "num": 20,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "single",
+      "stem": "（ 2021 届本科第一批）变压器空载运行的时候，励磁电流主要是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "无功电流"
+        },
+        {
+          "key": "B",
+          "text": "负载电流"
+        },
+        {
+          "key": "C",
+          "text": "有功电流"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 23
+    },
+    {
+      "id": "em-021",
+      "num": 21,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "single",
+      "stem": "（ 2021 届第二批本科）变压器运行过程中，电网电压，频率不变。若硅钢片接缝气隙变大，则下列说法正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "主磁通不变，励磁电流变大"
+        },
+        {
+          "key": "B",
+          "text": "主磁通变大，励磁电流变大"
+        },
+        {
+          "key": "C",
+          "text": "主磁通不变，磁阻变小"
+        },
+        {
+          "key": "D",
+          "text": "主磁通变大，磁阻变大 22"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 23
+    },
+    {
+      "id": "em-022",
+      "num": 22,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "single",
+      "stem": "（ 2022 届本科一批）变压器由空载到负载，漏磁通和漏电抗如何变化？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "漏磁通增大，漏电抗增大"
+        },
+        {
+          "key": "B",
+          "text": "漏磁通不变，漏电抗不变"
+        },
+        {
+          "key": "C",
+          "text": "漏磁通不变，漏电抗变大"
+        },
+        {
+          "key": "D",
+          "text": "漏磁通增大，漏电抗不变"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 24
+    },
+    {
+      "id": "em-023",
+      "num": 23,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "single",
+      "stem": "交流铁芯磁路中，当外加电压大小不变时，如果增大气隙，则主磁通（ ）励磁电感（ ）励磁电流（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "增加，减少，增加"
+        },
+        {
+          "key": "B",
+          "text": "基本不变，增加，减少"
+        },
+        {
+          "key": "C",
+          "text": "基本不变，减少，增加"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 24
+    },
+    {
+      "id": "em-024",
+      "num": 24,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "multi",
+      "stem": "（ 2018 年第二批本科）变压器空载运行时的主磁通和漏磁通的主要区别有（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "主磁通起传递能量的媒介作用，而漏磁通只起了漏抗降压的作用"
+        },
+        {
+          "key": "B",
+          "text": "空载时主磁通约占总磁通的 99% 以上，而漏磁通却不足 1%"
+        },
+        {
+          "key": "C",
+          "text": "主磁通磁路不饱和，而漏磁通磁路饱和"
+        },
+        {
+          "key": "D",
+          "text": "主磁通经过铁心磁路闭合，而漏磁通经过非铁磁性物质磁路闭合"
+        }
+      ],
+      "answer": "ABD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 24
+    },
+    {
+      "id": "em-025",
+      "num": 25,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "single",
+      "stem": "（ 2019 年本科第一批） 变压器接入负载运行后，对一次绕组与二次绕组磁动势之间的关系，描述正确 的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "一次侧绕组的磁动势大于二次侧绕组的磁动势且方向相同"
+        },
+        {
+          "key": "B",
+          "text": "一次侧绕组的磁动势小于二次侧绕组的磁动势且方向相同"
+        },
+        {
+          "key": "C",
+          "text": "一次侧绕组的磁动势与二次侧绕组的磁动势大小相等、方向相反，互相抵消"
+        },
+        {
+          "key": "D",
+          "text": "一次侧绕组磁动势与二次侧绕组磁动势之和为一次绕组的励磁磁动势"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 24
+    },
+    {
+      "id": "em-026",
+      "num": 26,
+      "chapter": "第二章 变压器",
+      "section": "第四节 变压器的等效电路和运行原理",
+      "type": "judge",
+      "stem": "（ 2019 年本科第一批）电力变压器在带负荷运行时，一次侧电流中的负荷分量产生的磁通与二次侧电流中的负荷分量产生的磁通相互抵消，此时主磁通与空载时的主磁通近似相等。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 24
+    },
+    {
+      "id": "em-027",
+      "num": 27,
+      "chapter": "第二章 变压器",
+      "section": "第五节 变压器的参数测定",
+      "type": "single",
+      "stem": "（ 2023 届本科一批）变压器铭牌上反应铁耗的是哪个参数（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "空载损耗"
+        },
+        {
+          "key": "B",
+          "text": "短路损耗"
+        },
+        {
+          "key": "C",
+          "text": "短路电压百分数"
+        },
+        {
+          "key": "D",
+          "text": "空载电流百分数"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 26
+    },
+    {
+      "id": "em-028",
+      "num": 28,
+      "chapter": "第二章 变压器",
+      "section": "第五节 变压器的参数测定",
+      "type": "single",
+      "stem": "（ 2022 届专科）变压器空载损耗近似等于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "绕组损耗"
+        },
+        {
+          "key": "B",
+          "text": "铁芯损耗"
+        },
+        {
+          "key": "C",
+          "text": "杂散损耗"
+        },
+        {
+          "key": "D",
+          "text": "谐波损耗"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 26
+    },
+    {
+      "id": "em-029",
+      "num": 29,
+      "chapter": "第二章 变压器",
+      "section": "第五节 变压器的参数测定",
+      "type": "single",
+      "stem": "（ 2022 届专科）变压器的励磁阻抗参数可以通过（ ）试验测得。",
+      "options": [
+        {
+          "key": "A",
+          "text": "空载试验"
+        },
+        {
+          "key": "B",
+          "text": "短路试验"
+        },
+        {
+          "key": "C",
+          "text": "零功率因数特性试验"
+        },
+        {
+          "key": "D",
+          "text": "负载试验"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 26
+    },
+    {
+      "id": "em-030",
+      "num": 30,
+      "chapter": "第二章 变压器",
+      "section": "第五节 变压器的参数测定",
+      "type": "multi",
+      "stem": "（ 2017 届本科第一批）变压器空载试验可测取 T 型等效电路的（ ）参数",
+      "options": [
+        {
+          "key": "A",
+          "text": "励磁电抗"
+        },
+        {
+          "key": "B",
+          "text": "短路电抗"
+        },
+        {
+          "key": "C",
+          "text": "短路阻抗"
+        },
+        {
+          "key": "D",
+          "text": "励磁电阻"
+        }
+      ],
+      "answer": "AD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 26
+    },
+    {
+      "id": "em-031",
+      "num": 31,
+      "chapter": "第二章 变压器",
+      "section": "第五节 变压器的参数测定",
+      "type": "judge",
+      "stem": "（ 2019 年本科第一批） 由于变压器空载时，仅一次侧绕组流过励磁电流，因此绕组中的有功功率损 耗很小，变压器的空载损耗主要是铁损。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 26
+    },
+    {
+      "id": "em-032",
+      "num": 32,
+      "chapter": "第二章 变压器",
+      "section": "第五节 变压器的参数测定",
+      "type": "single",
+      "stem": "（ 2020 年第二批本科）一台变压器变比为 10 ，空载试验在低压侧做测得空载损耗为 35W ，然后换成另一侧做，其损耗为多少（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.5W"
+        },
+        {
+          "key": "B",
+          "text": "35W"
+        },
+        {
+          "key": "C",
+          "text": "350W"
+        },
+        {
+          "key": "D",
+          "text": "35000W 25"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 26
+    },
+    {
+      "id": "em-033",
+      "num": 33,
+      "chapter": "第二章 变压器",
+      "section": "第五节 变压器的参数测定",
+      "type": "single",
+      "stem": "（ 2023 届专科）一台变压器变比为 2 ，阻抗标幺值在高压侧为 0.06 ，归算到低压侧是多少（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.015"
+        },
+        {
+          "key": "B",
+          "text": "0.03"
+        },
+        {
+          "key": "C",
+          "text": "0.06"
+        },
+        {
+          "key": "D",
+          "text": "0.12"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 27
+    },
+    {
+      "id": "em-034",
+      "num": 34,
+      "chapter": "第二章 变压器",
+      "section": "第五节 变压器的参数测定",
+      "type": "multi",
+      "stem": "（ 2024 届本科第一批）变压器空载实验可以测得的参数有（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "励磁电阻"
+        },
+        {
+          "key": "B",
+          "text": "励磁电抗"
+        },
+        {
+          "key": "C",
+          "text": "短路电阻"
+        },
+        {
+          "key": "D",
+          "text": "短路电抗"
+        }
+      ],
+      "answer": "AB",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 27
+    },
+    {
+      "id": "em-035",
+      "num": 35,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2017 届本科第二批）Dyn11 变压器接线下，高压侧线电压和低压侧线电压之间的相位关系（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "高压超前低压30°"
+        },
+        {
+          "key": "B",
+          "text": "高压滞后低压30°"
+        },
+        {
+          "key": "C",
+          "text": "高压超前低压60°"
+        },
+        {
+          "key": "D",
+          "text": "高压滞后低压60°"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 31
+    },
+    {
+      "id": "em-036",
+      "num": 36,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2020 年第二批本科）Y-d3 接线的变压器，两侧线电压角度差为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "30°"
+        },
+        {
+          "key": "B",
+          "text": "60°"
+        },
+        {
+          "key": "C",
+          "text": "90°"
+        },
+        {
+          "key": "D",
+          "text": "120°"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 31
+    },
+    {
+      "id": "em-037",
+      "num": 37,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2023 届专科）Yd5 高压侧线电压和低压侧线电压相差多少度（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "30"
+        },
+        {
+          "key": "B",
+          "text": "60"
+        },
+        {
+          "key": "C",
+          "text": "90"
+        },
+        {
+          "key": "D",
+          "text": "150"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 31
+    },
+    {
+      "id": "em-038",
+      "num": 38,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2023 届专科）变压器Yd11 低压的负序线电压为45 度，高压侧线电压为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "75 度"
+        },
+        {
+          "key": "B",
+          "text": "15 度"
+        },
+        {
+          "key": "C",
+          "text": "60 度"
+        },
+        {
+          "key": "D",
+          "text": "30 度"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 31
+    },
+    {
+      "id": "em-039",
+      "num": 39,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2018 年第二批本科）采用Yd 联结的三相变压器空载运行，铁芯饱和时，产生主磁通的电流为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "一次侧基波电流和二次侧三次谐波电流"
+        },
+        {
+          "key": "B",
+          "text": "一次侧尖顶波电流"
+        },
+        {
+          "key": "C",
+          "text": "二次侧负载电流"
+        },
+        {
+          "key": "D",
+          "text": "二次侧基波电流"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 38
+    },
+    {
+      "id": "em-040",
+      "num": 40,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2023 届本科一批）为减小三次谐波磁通，三绕组自耦变压器的第三绕组接成（ ）形。",
+      "options": [
+        {
+          "key": "A",
+          "text": "Y 型"
+        },
+        {
+          "key": "B",
+          "text": "Δ型"
+        },
+        {
+          "key": "C",
+          "text": "V 型"
+        },
+        {
+          "key": "D",
+          "text": "Z 型"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 38
+    },
+    {
+      "id": "em-041",
+      "num": 41,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2022 届本科一批）一台单相变压器，铁心饱和后，励磁电流波形为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "矩形波"
+        },
+        {
+          "key": "B",
+          "text": "正弦波"
+        },
+        {
+          "key": "C",
+          "text": "尖顶波"
+        },
+        {
+          "key": "D",
+          "text": "平顶波"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 38
+    },
+    {
+      "id": "em-042",
+      "num": 42,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2024 届本科第一批）变压器励磁电流出现三次谐波的原因是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "二次侧开路"
+        },
+        {
+          "key": "B",
+          "text": "磁路不对称"
+        },
+        {
+          "key": "C",
+          "text": "磁路饱和"
+        },
+        {
+          "key": "D",
+          "text": "负荷不对称"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 38
+    },
+    {
+      "id": "em-043",
+      "num": 43,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2024 届本科第二批）三相变压器组不宜采用Yy 接线，原因为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "避免励磁电流畸变"
+        },
+        {
+          "key": "B",
+          "text": "避免线电势畸变"
+        },
+        {
+          "key": "C",
+          "text": "避免相电势畸变"
+        },
+        {
+          "key": "D",
+          "text": "减小损耗"
+        }
+      ],
+      "answer": "C",
+      "explanation": "三相组式变压器各相磁路独立，Yy 接法无三次谐波电流流通路径，三次谐波磁通畅通导致相电势严重畸变。",
+      "images": [],
+      "answerImages": [],
+      "page": 38
+    },
+    {
+      "id": "em-044",
+      "num": 44,
+      "chapter": "第二章 变压器",
+      "section": "第六节 三相变压器",
+      "type": "single",
+      "stem": "（2019 年本科第一批）对于三相组式变压器，不能采用的绕组连接组是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dy11"
+        },
+        {
+          "key": "B",
+          "text": "Yd3"
+        },
+        {
+          "key": "C",
+          "text": "Yy0"
+        },
+        {
+          "key": "D",
+          "text": "Yd11"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 38
+    },
+    {
+      "id": "em-045",
+      "num": 45,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（ 2020 年本科第一批）当变压器一次绕组接额定电压，二次绕组 （ ） 时，二次侧的电压就是二次侧的额定电压。",
+      "options": [
+        {
+          "key": "A",
+          "text": "带额定负载"
+        },
+        {
+          "key": "B",
+          "text": "空载"
+        },
+        {
+          "key": "C",
+          "text": "半载"
+        },
+        {
+          "key": "D",
+          "text": "0.1 倍额定负载"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 39
+    },
+    {
+      "id": "em-046",
+      "num": 46,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（ 2018 年第二批本科）一台单相变压器一次侧加额定电压，空载时两侧电压之比为14.5:1 ，额定负载时两侧电压之比为 15:1 ，则该台变压器额定负载时的电压变化率为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.0333"
+        },
+        {
+          "key": "B",
+          "text": "0.5"
+        },
+        {
+          "key": "C",
+          "text": "0.03"
+        },
+        {
+          "key": "D",
+          "text": "0.025 38"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 39
+    },
+    {
+      "id": "em-047",
+      "num": 47,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "judge",
+      "stem": "（ 2017 届本科第一批）变压器带阻感性负载时，二次侧输出电压调整率随负载的增大而增大（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 40
+    },
+    {
+      "id": "em-048",
+      "num": 48,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "judge",
+      "stem": "（ 2018 年第二批本科）变压器无论带任何性质的负载，当负载电流增大时，输出电压必降低。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 40
+    },
+    {
+      "id": "em-049",
+      "num": 49,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（ 2022 届本科二批）变压器带负载运行后。电压变化率为 0 ，则变压器所带负载性质为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "阻性"
+        },
+        {
+          "key": "B",
+          "text": "容性"
+        },
+        {
+          "key": "C",
+          "text": "感性"
+        },
+        {
+          "key": "D",
+          "text": "无法判断"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 40
+    },
+    {
+      "id": "em-050",
+      "num": 50,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（ 2023 届专科）变压器二次侧负载增加时，二次侧电压保持不变，则所带负载性质为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "阻感性"
+        },
+        {
+          "key": "B",
+          "text": "阻性"
+        },
+        {
+          "key": "C",
+          "text": "阻容性"
+        },
+        {
+          "key": "D",
+          "text": "都有可能"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 40
+    },
+    {
+      "id": "em-051",
+      "num": 51,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "judge",
+      "stem": "（2021 届本科第二批）若要使变压器获得最大效率，变压器的不变损耗等于可变损耗时获得最大效率。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 41
+    },
+    {
+      "id": "em-052",
+      "num": 52,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "已知变压器P0 为500W,Pk 为1250W,求该变压器负载率为多少时效率最高（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "50%"
+        },
+        {
+          "key": "B",
+          "text": "63%"
+        },
+        {
+          "key": "C",
+          "text": "72%"
+        },
+        {
+          "key": "D",
+          "text": "54%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 41
+    },
+    {
+      "id": "em-053",
+      "num": 53,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "已知变压器变压器额定容量为S N =100kVA,P0 为500W,Pk 为1250W,所带负载为阻性,求该变压器满载时的效率（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "36.4%"
+        },
+        {
+          "key": "B",
+          "text": "97.2%"
+        },
+        {
+          "key": "C",
+          "text": "98.3%"
+        },
+        {
+          "key": "D",
+          "text": "99.6%"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 41
+    },
+    {
+      "id": "em-054",
+      "num": 54,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "已知变压器变压器额定容量为S N =100kVA,P0 为500W,Pk 为1250W,所带负载功率因数cos φ =0.6( φ>0 )时,求该变压器满载时的效率（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "36.4%"
+        },
+        {
+          "key": "B",
+          "text": "97.2%"
+        },
+        {
+          "key": "C",
+          "text": "98.3%"
+        },
+        {
+          "key": "D",
+          "text": "99.6%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 41
+    },
+    {
+      "id": "em-055",
+      "num": 55,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "已知变压器变压器额定容量为S N =100kVA,P0 为500W,Pk 为1250W,所带负载功率因数cos φ =0.6( φ<0 )时,求该变压器满载时的效率（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "36.4%"
+        },
+        {
+          "key": "B",
+          "text": "97.2%"
+        },
+        {
+          "key": "C",
+          "text": "98.3%"
+        },
+        {
+          "key": "D",
+          "text": "99.9%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 41
+    },
+    {
+      "id": "em-056",
+      "num": 56,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "已知变压器Pk 为1250W,半载时变压器的铜耗为多少（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "208.3W"
+        },
+        {
+          "key": "B",
+          "text": "312.5W"
+        },
+        {
+          "key": "C",
+          "text": "625W"
+        },
+        {
+          "key": "D",
+          "text": "1250W"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 41
+    },
+    {
+      "id": "em-057",
+      "num": 57,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "已知变压器P0 为500W,电网电压下降10%时的铁耗多少（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "450W"
+        },
+        {
+          "key": "B",
+          "text": "500W"
+        },
+        {
+          "key": "C",
+          "text": "405W"
+        },
+        {
+          "key": "D",
+          "text": "550W"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 41
+    },
+    {
+      "id": "em-058",
+      "num": 58,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "multi",
+      "stem": "（2021 届本科第一批）变压器的损耗正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "铁耗不随负载大小的变化而变化"
+        },
+        {
+          "key": "B",
+          "text": "铜耗随负载大小的变化而变化"
+        },
+        {
+          "key": "C",
+          "text": "效率最大是在铁耗等于铜耗时"
+        },
+        {
+          "key": "D",
+          "text": "所带负载功率因数越高，效率越大 40"
+        }
+      ],
+      "answer": "ABCD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 41
+    },
+    {
+      "id": "em-059",
+      "num": 59,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（2023 届本科第二批）变压器由空载变为额定负载时，铁损和铜损如何变化（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "铁损不变，铜损增加"
+        },
+        {
+          "key": "B",
+          "text": "铁损增加，铜损增加"
+        },
+        {
+          "key": "C",
+          "text": "铁损增加，铜损不变"
+        },
+        {
+          "key": "D",
+          "text": "铁损不变，铜损不变"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 42
+    },
+    {
+      "id": "em-060",
+      "num": 60,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（2023 届本科第二批）已知变压器SN=20000kVA，电压比为110/10.5kV，Pk=100kW， P0=36kW，求当变压器效率最大时二次侧电流值（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "1100A"
+        },
+        {
+          "key": "B",
+          "text": "660A"
+        },
+        {
+          "key": "C",
+          "text": "880A"
+        },
+        {
+          "key": "D",
+          "text": "105A"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 42
+    },
+    {
+      "id": "em-061",
+      "num": 61,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（2023 届本科一批）变压器并联产生循环功率的原因（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "不同厂家生产"
+        },
+        {
+          "key": "B",
+          "text": "变比不同"
+        },
+        {
+          "key": "C",
+          "text": "额定电流不同"
+        },
+        {
+          "key": "D",
+          "text": "额定容量不同"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 44
+    },
+    {
+      "id": "em-062",
+      "num": 62,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（2023 届本科第二批）两个变压器并列运行，T1 和T2 额定容量分别为3200kVA 和5600kVA， T1 和T2 的阻抗电压Uk%分别为4%和5%，则两台变压器并联运行时的最大运行容量为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "7040kVA"
+        },
+        {
+          "key": "B",
+          "text": "7680kVA"
+        },
+        {
+          "key": "C",
+          "text": "8160kVA"
+        },
+        {
+          "key": "D",
+          "text": "8800kVA"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 44
+    },
+    {
+      "id": "em-063",
+      "num": 63,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "judge",
+      "stem": "（2023 届本科第二批）两台变压器并联运行，为保证变压器容量能得到充分利用，应保证变压器同时达到满载。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 44
+    },
+    {
+      "id": "em-064",
+      "num": 64,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "judge",
+      "stem": "（2024 届本科第一批）变压器并列运行时变比偏差要求不超过5%（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 44
+    },
+    {
+      "id": "em-065",
+      "num": 65,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（2017 届本科第一批）两台变压器并列运行，必须满足的条件是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "额定容量相同"
+        },
+        {
+          "key": "B",
+          "text": "接线组别号相同"
+        },
+        {
+          "key": "B",
+          "text": "短路阻抗相等"
+        },
+        {
+          "key": "D",
+          "text": "变比相等"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 44
+    },
+    {
+      "id": "em-066",
+      "num": 66,
+      "chapter": "第二章 变压器",
+      "section": "第七节 变压器的运行",
+      "type": "single",
+      "stem": "（2018 年第二批本科）两台变压器的额定容量、变比、联接组别都相同，但短路阻抗标Z > * Z *幺值k 1 k 2，并联运行时，两台变压器输出视在功率大小的关系是（ ） 1 S < S 1 S = S 1 S > S",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "无法确定"
+        },
+        {
+          "key": "D",
+          "text": "2 43"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 44
+    },
+    {
+      "id": "em-067",
+      "num": 67,
+      "chapter": "第二章 变压器",
+      "section": "第八节 三绕组与自耦变压器（典型例题 1）",
+      "type": "single",
+      "stem": "【典型例题 1】（2016 届本科第一批）一台额定电压为 220/110/35kV，额定容量为 120MVA 的自耦变压器，如果低压侧向中压侧传输 40MVA，且功率因数相同，则高压侧可传输至中压侧的最大功率为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "40MVA"
+        },
+        {
+          "key": "B",
+          "text": "60MVA"
+        },
+        {
+          "key": "C",
+          "text": "80MVA"
+        },
+        {
+          "key": "D",
+          "text": "20MVA"
+        }
+      ],
+      "answer": "A",
+      "explanation": "效益系数 k_a = 1 - U_2/U_1 = 1 - 110/220 = 0.5，公共绕组额定容量 = k_a × S_N = 60MVA。低压侧向中压侧传 40MVA 全部经公共绕组，若高压侧向中压侧传 S_12，公共绕组中两电流同向叠加，故 0.5 S_12 + 40 ≤ 60 → S_12 ≤ 40MVA。",
+      "images": [],
+      "answerImages": [
+        "assets/images/em/em_ex02_sol_p45.webp"
+      ],
+      "page": 47
+    },
+    {
+      "id": "em-068",
+      "num": 68,
+      "chapter": "第二章 变压器",
+      "section": "第八节 三绕组与自耦变压器（典型例题 1 扩展）",
+      "type": "essay",
+      "stem": "【典型例题 1 扩展】一台额定电压为 220/110/35kV，额定容量为 120MVA 的自耦变压器，如果低压侧向中压侧传输 40MVA，且功率因数相同，则当高压侧向中压侧传输最大功率（40MVA）时，求此时：①串联绕组负荷；②公共绕组负荷；③低压绕组负荷；④高压向中压的传导负荷。",
+      "options": [],
+      "answer": "①串联绕组负荷 = k_a · S_12 = 0.5 × 40 = 20MVA；\n②公共绕组负荷 = 40 + 0.5 × 40 = 60MVA（达到公共绕组满载上限）；\n③低压绕组负荷 = 40MVA；\n④高压向中压的传导负荷 = (1 - k_a) · S_12 = 0.5 × 40 = 20MVA。",
+      "explanation": "详细功率流向与计算过程可展开下方原版手写板书图核对。",
+      "images": [],
+      "answerImages": [
+        "assets/images/em/em_ex02_sol_p45.webp"
+      ],
+      "page": 47
+    },
+    {
+      "id": "em-069",
+      "num": 69,
+      "chapter": "第二章 变压器",
+      "section": "第八节 三绕组与自耦变压器（典型例题 2）",
+      "type": "essay",
+      "stem": "【典型例题 2】（出自《发电厂电气主系统》第 3 版 许珉等编 P294 例 9-6）已知容量为 150MVA 的三相三绕组自耦变压器，额定电压为 242/121/11kV，容量比为 100/100/50，低压侧接有 60MW、功率因数为 0.8 的发电机一台，各侧功率因数相等。试求：\n(1) 发电机和 110kV 系统各向 220kV 系统传输功率 75MVA，计算各绕组的负荷和相应的绕组情况；\n(2) 如果 220kV 系统向 110kV 系统传输功率 75MVA，低压侧的发电机还可以向 110kV 系统传输多少功率？",
+      "options": [],
+      "answer": "效益系数 k_a = 1 - 121/242 = 0.5，各绕组额定容量：串联绕组 = 公共绕组 = 低压绕组 = 0.5 × 150 = 75MVA；发电机视在功率 S_G = 60 / 0.8 = 75MVA。\n(1) 发电机(75MVA) + 110kV(75MVA) → 220kV(150MVA)：串联绕组负荷 = 0.5×150 = 75MVA，低压绕组 = 75MVA，公共绕组中中→高与低→高电磁功率反向抵消：|75 - 0.5×150| = 0MVA（公共绕组零负荷，最有利运行方式）；\n(2) 220kV → 110kV 传输 75MVA 时，公共绕组已承担电磁负荷 0.5×75 = 37.5MVA，且低→中电流与高→中公共绕组电流同向叠加，故发电机最多还可向 110kV 系统传输 75 - 37.5 = 37.5MVA（有功 30MW）。",
+      "explanation": "完整分步推演请参考下方原版手写板书图。",
+      "images": [],
+      "answerImages": [
+        "assets/images/em/em_ex02_sol_p45.webp",
+        "assets/images/em/em_ex03_sol_p46.webp"
+      ],
+      "page": 47
+    },
+    {
+      "id": "em-070",
+      "num": 70,
+      "chapter": "第二章 变压器",
+      "section": "第八节 自耦变压器",
+      "type": "multi",
+      "stem": "（ 2017 届本科第一批）下列电压等级的中压和高压电网，（ ）适合选用自耦变压器",
+      "options": [
+        {
+          "key": "A",
+          "text": "110/330Kv"
+        },
+        {
+          "key": "B",
+          "text": "110/500Kv"
+        },
+        {
+          "key": "C",
+          "text": "220/500Kv"
+        },
+        {
+          "key": "D",
+          "text": "110/220kV"
+        }
+      ],
+      "answer": "ACD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 48
+    },
+    {
+      "id": "em-071",
+      "num": 71,
+      "chapter": "第二章 变压器",
+      "section": "第八节 自耦变压器",
+      "type": "multi",
+      "stem": "（ 2017 届本科第一批）自耦变压器的特点（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "自耦变压器有的绕组之间有电的联系"
+        },
+        {
+          "key": "B",
+          "text": "一、二次侧的三相连接方式必需相同"
+        },
+        {
+          "key": "C",
+          "text": "短路电流和热效应比普通双绕组变压器要大"
+        },
+        {
+          "key": "D",
+          "text": "与同容量、同电压等级的普通变压器比较，自耦变压器的经济效益非常显著"
+        }
+      ],
+      "answer": "ABCD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 48
+    },
+    {
+      "id": "em-072",
+      "num": 72,
+      "chapter": "第二章 变压器",
+      "section": "第八节 自耦变压器",
+      "type": "multi",
+      "stem": "（ 2019 年本科第一批）下列变比的变压器，适合采用自耦变压器型式的有（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "330kV/121kV/11kV"
+        },
+        {
+          "key": "B",
+          "text": "220kV/121kV"
+        },
+        {
+          "key": "C",
+          "text": "500kV/242kV"
+        },
+        {
+          "key": "D",
+          "text": "110KV/11kV"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 48
+    },
+    {
+      "id": "em-073",
+      "num": 73,
+      "chapter": "第二章 变压器",
+      "section": "第八节 自耦变压器",
+      "type": "judge",
+      "stem": "（2024 届本科第二批）自耦变压器的变比通常小于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "3:1"
+        },
+        {
+          "key": "B",
+          "text": "4:1"
+        },
+        {
+          "key": "C",
+          "text": "2:1"
+        },
+        {
+          "key": "D",
+          "text": "5:1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "自耦变压器变比过大时经济效益显著下降且高低压绝缘配合困难，电力系统中变比一般不超过 3（常用 2~3 以内）。",
+      "images": [],
+      "answerImages": [],
+      "page": 48
+    },
+    {
+      "id": "em-074",
+      "num": 74,
+      "chapter": "第二章 变压器",
+      "section": "第八节 自耦变压器",
+      "type": "multi",
+      "stem": "（ 2022 届专科）自耦变压器的运行方式包括（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "纯自耦运行"
+        },
+        {
+          "key": "B",
+          "text": "纯变压运行"
+        },
+        {
+          "key": "C",
+          "text": "联合运行"
+        },
+        {
+          "key": "D",
+          "text": "其他运行"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 49
+    },
+    {
+      "id": "em-075",
+      "num": 75,
+      "chapter": "第二章 变压器",
+      "section": "第八节 自耦变压器",
+      "type": "judge",
+      "stem": "（ 2018 年第二批本科）自耦变压器中压侧的绝缘必须按高压侧电压等级设计。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 49
+    },
+    {
+      "id": "em-076",
+      "num": 76,
+      "chapter": "第二章 变压器",
+      "section": "第八节 自耦变压器",
+      "type": "judge",
+      "stem": "（ 2023 届专科）自耦变压器的传导容量是指从高压侧感应传到中压侧的功率。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 49
+    },
+    {
+      "id": "em-077",
+      "num": 77,
+      "chapter": "第二章 变压器",
+      "section": "第八节 自耦变压器",
+      "type": "judge",
+      "stem": "（ 2024 届本科第二批）自耦变压器与同容量的双绕组变压器短路电流大小相同 （ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误 48"
+        }
+      ],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 49
+    },
+    {
+      "id": "em-078",
+      "num": 78,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第二节 绕组的基本结构",
+      "type": "single",
+      "stem": "（ 2020 年第二批本科）一台交流电机有 6 个极， 36 槽，为双层线圈。第一节距 y = 5 ，求短距角（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "15°"
+        },
+        {
+          "key": "B",
+          "text": "25°"
+        },
+        {
+          "key": "C",
+          "text": "30°"
+        },
+        {
+          "key": "D",
+          "text": "40°"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 51
+    },
+    {
+      "id": "em-079",
+      "num": 79,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第二节 绕组的基本结构",
+      "type": "single",
+      "stem": "（ 2020 年第二批专科）一台 6 极三相电机，则其 30° 的机械角度对应的电角度为多少（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "30°"
+        },
+        {
+          "key": "B",
+          "text": "90°"
+        },
+        {
+          "key": "C",
+          "text": "180°"
+        },
+        {
+          "key": "D",
+          "text": "360°"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 51
+    },
+    {
+      "id": "em-080",
+      "num": 80,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第二节 绕组的基本结构",
+      "type": "single",
+      "stem": "（ 2024 届本科第二批）同步电机的槽数为 36, 极对数为 3, 则每极每相槽数为 （ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 51
+    },
+    {
+      "id": "em-081",
+      "num": 81,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第二节 绕组的基本结构",
+      "type": "single",
+      "stem": "当采用绕组短距的方式同时削弱定子绕组中 5 次和 7 次谐波磁动势时，应选绕组节距为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "τ"
+        },
+        {
+          "key": "B",
+          "text": "4τ/5"
+        },
+        {
+          "key": "C",
+          "text": "6τ/7"
+        },
+        {
+          "key": "D",
+          "text": "5τ/6"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 54
+    },
+    {
+      "id": "em-082",
+      "num": 82,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第二节 绕组的基本结构",
+      "type": "single",
+      "stem": "交流绕组采用短距与分布后，基波电动势 （ ）, 谐波电动势 （ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "减小，减小"
+        },
+        {
+          "key": "B",
+          "text": "不变，不变"
+        },
+        {
+          "key": "C",
+          "text": "不变，减小"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 54
+    },
+    {
+      "id": "em-083",
+      "num": 83,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "single",
+      "stem": "（ 2023 届专科）已知 ia=imsin （ wt-190 ）， ib=imsin （ wt+50 ）， ic=imsin （ wt-70 ），当53 wt 为 40 °时，定子旋转磁动势在哪相轴线上（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "a 相"
+        },
+        {
+          "key": "B",
+          "text": "b 相"
+        },
+        {
+          "key": "C",
+          "text": "c 相"
+        },
+        {
+          "key": "D",
+          "text": "ac 相的中线"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 54
+    },
+    {
+      "id": "em-084",
+      "num": 84,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "fill",
+      "stem": "单相绕组的基波磁动势是（ ），它可以分解成大小（ ）、转向（ ）、转速（ ）的两个旋转磁动势。",
+      "options": [],
+      "answer": "脉振磁动势；相等（均为最大幅值的一半）；相反；相同",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 55
+    },
+    {
+      "id": "em-085",
+      "num": 85,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "fill",
+      "stem": "三相对称绕组通以三相对称电流，顺时针相序（a-b-c-a），其中 i_a = 10 sin(ωt)，当 i_a = 10A 时，三相基波合成磁动势的幅值应位于（ ）。",
+      "options": [],
+      "answer": "A 相绕组轴线正方向",
+      "explanation": "三相合成旋转磁动势的幅值总是重合于电流达到正最大值的那一相绕组轴线处。",
+      "images": [],
+      "answerImages": [],
+      "page": 55
+    },
+    {
+      "id": "em-086",
+      "num": 86,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "fill",
+      "stem": "三相对称绕组通以三相对称电流，顺时针相序（a-b-c-a），其中 i_a = 10 sin(ωt)，当 i_a = -5A（处于下降半周，ωt = 210°）时，三相基波合成磁动势的幅值应位于（ ）。",
+      "options": [],
+      "answer": "B 相绕组轴线负方向（或随 ωt=330° 时位于 C 相负方向，取决于过零方向）",
+      "explanation": "当 ωt = 210° 时 i_a = -5A，i_b = 10 sin(90°) = +10A（正最大），合成磁动势幅值位于 B 相轴线；若 ωt = 330° 则 i_c = +10A 位于 C 相轴线。",
+      "images": [],
+      "answerImages": [],
+      "page": 55
+    },
+    {
+      "id": "em-087",
+      "num": 87,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "single",
+      "stem": "一台50Hz 的三相电机通以60Hz 的三相对称电流，并保持电流有效值不变，此时三相基波合成旋转磁动势的极数（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "变大"
+        },
+        {
+          "key": "B",
+          "text": "减小"
+        },
+        {
+          "key": "C",
+          "text": "不变"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 55
+    },
+    {
+      "id": "em-088",
+      "num": 88,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "single",
+      "stem": "一台50Hz 的三相电机通以60Hz 的三相对称电流，并保持电流有效值不变，此时三相基波合成旋转磁动势的转速（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "变大"
+        },
+        {
+          "key": "B",
+          "text": "减小"
+        },
+        {
+          "key": "C",
+          "text": "不变"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 55
+    },
+    {
+      "id": "em-089",
+      "num": 89,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "single",
+      "stem": "将一台三相交流电机的三相绕组串联起来，通交流电，则合成磁动势为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "基波磁动势"
+        },
+        {
+          "key": "B",
+          "text": "脉振磁动势"
+        },
+        {
+          "key": "C",
+          "text": "不可确定"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 55
+    },
+    {
+      "id": "em-090",
+      "num": 90,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "single",
+      "stem": "一个整距线圈产生的磁动势波形为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正弦波"
+        },
+        {
+          "key": "B",
+          "text": "矩形波"
+        },
+        {
+          "key": "C",
+          "text": "阶梯波"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 57
+    },
+    {
+      "id": "em-091",
+      "num": 91,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "single",
+      "stem": "三相对称交流绕组的合成基波空间磁动势幅值为 F1, 绕组因数为 k w1 ， 3 次谐波绕组因数为 k w3 ，则 3 次空间磁动势波的合成幅值为 （ ） 3 F 1 k w 3 C. F 1 k w 3 1",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "(1/3) F₁ (k_w3 / k_w1)"
+        },
+        {
+          "key": "C",
+          "text": "F₁ (k_w3 / k_w1)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "对称三相绕组中，各相 3 次谐波磁动势时间上同相位、空间上互差 120°×3 = 360°？注意空间电角度 3×120°=360° 而单相脉振叠加后对称三相总合成磁动势中 3 的倍数次谐波完全抵消为 0。",
+      "images": [],
+      "answerImages": [],
+      "page": 57
+    },
+    {
+      "id": "em-092",
+      "num": 92,
+      "chapter": "第三章 交流电机理论的共同问题",
+      "section": "第三节 交流绕组的磁动势",
+      "type": "single",
+      "stem": "三相对称交流绕组通以三相对称基波正弦交流电时， v 次谐波磁动势的转速为 （ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "n1"
+        },
+        {
+          "key": "B",
+          "text": "vn1"
+        },
+        {
+          "key": "C",
+          "text": "n1/ v"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 57
+    },
+    {
+      "id": "em-093",
+      "num": 93,
+      "chapter": "第四章 同步电机",
+      "section": "第一节 同步电机的基本结构",
+      "type": "single",
+      "stem": "（2022 届本科一批）关于同步发电机以下说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "水轮发电机转子采用卧式安装，转速低"
+        },
+        {
+          "key": "B",
+          "text": "汽轮发电机的极对数少，转速高"
+        },
+        {
+          "key": "C",
+          "text": "同步发电机稳定运行时，转子转速低于同步速度"
+        },
+        {
+          "key": "D",
+          "text": "同步发电机稳定运行时，转子转速高于同步速度"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 59
+    },
+    {
+      "id": "em-094",
+      "num": 94,
+      "chapter": "第四章 同步电机",
+      "section": "第一节 同步电机的基本结构",
+      "type": "single",
+      "stem": "（2019 年本科第一批） 在额定功率为50Hz 的电网中，用于核电机组的四极同步发电机，其同步转速 为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "1000r/min"
+        },
+        {
+          "key": "B",
+          "text": "4500r/min"
+        },
+        {
+          "key": "C",
+          "text": "0r/min"
+        },
+        {
+          "key": "D",
+          "text": "1500r/min"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 59
+    },
+    {
+      "id": "em-095",
+      "num": 95,
+      "chapter": "第四章 同步电机",
+      "section": "第一节 同步电机的基本结构",
+      "type": "single",
+      "stem": "（2020 年第二批本科）凸极机同步电抗哪个电抗最大（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "直轴电抗"
+        },
+        {
+          "key": "B",
+          "text": "直轴暂态"
+        },
+        {
+          "key": "C",
+          "text": "直轴次暂态"
+        },
+        {
+          "key": "D",
+          "text": "交轴电抗"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 59
+    },
+    {
+      "id": "em-096",
+      "num": 96,
+      "chapter": "第四章 同步电机",
+      "section": "第一节 同步电机的基本结构",
+      "type": "single",
+      "stem": "（2022 届本科一批）关于隐极同步电机的电枢电抗，说法正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "Xad>Xaq"
+        },
+        {
+          "key": "B",
+          "text": "Xad<Xaq"
+        },
+        {
+          "key": "C",
+          "text": "Xad=Xaq"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 59
+    },
+    {
+      "id": "em-097",
+      "num": 97,
+      "chapter": "第四章 同步电机",
+      "section": "第一节 同步电机的基本结构",
+      "type": "judge",
+      "stem": "（2017 届本科第一批）凸极同步发电机的直轴同步电抗等于交轴同步电抗（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 59
+    },
+    {
+      "id": "em-098",
+      "num": 98,
+      "chapter": "第四章 同步电机",
+      "section": "第一节 同步电机的基本结构",
+      "type": "judge",
+      "stem": "（2018 年第二批本科）同步电机当铁心饱和程度提高时，同步电抗将增加。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 59
+    },
+    {
+      "id": "em-099",
+      "num": 99,
+      "chapter": "第四章 同步电机",
+      "section": "第一节 同步电机的基本结构",
+      "type": "judge",
+      "stem": "（2019 年本科第一批）凸极同步发电机的直轴电枢反应电抗小于交轴电枢反应电抗。 （ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 59
+    },
+    {
+      "id": "em-100",
+      "num": 100,
+      "chapter": "第四章 同步电机",
+      "section": "第一节 同步电机的基本结构",
+      "type": "judge",
+      "stem": "（2020 年第二批本科）汽轮机一般采用的是凸极机（ ） 58",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 59
+    },
+    {
+      "id": "em-101",
+      "num": 101,
+      "chapter": "第四章 同步电机",
+      "section": "第二节 同步电机的运行状态",
+      "type": "single",
+      "stem": "（2022 届本科一批）同步电机作电动机运行时（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "E0 超前U，Ff 超前Fδ，δ>0"
+        },
+        {
+          "key": "B",
+          "text": "E0 滞后U，Ff 滞后Fδ，δ<0"
+        },
+        {
+          "key": "C",
+          "text": "E0 滞后U，Ff 超前Fδ，δ>0"
+        },
+        {
+          "key": "D",
+          "text": "E0 超前U，Ff 滞后Fδ，δ<0"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 61
+    },
+    {
+      "id": "em-102",
+      "num": 102,
+      "chapter": "第四章 同步电机",
+      "section": "第二节 同步电机的运行状态",
+      "type": "judge",
+      "stem": "（2023 届本科一批）（判断）同步发电机转子主磁场超前气隙合成磁场（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 61
+    },
+    {
+      "id": "em-103",
+      "num": 103,
+      "chapter": "第四章 同步电机",
+      "section": "第二节 同步电机的运行状态",
+      "type": "multi",
+      "stem": "（2023 届专科）电机学功率角的定义（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "转子主磁场和气隙合成磁场的夹角"
+        },
+        {
+          "key": "B",
+          "text": "空载电动势E0 和端电压U 的夹角"
+        },
+        {
+          "key": "C",
+          "text": "空载电动势和定子电流的夹角"
+        },
+        {
+          "key": "D",
+          "text": "端电压和定子电流的夹角"
+        }
+      ],
+      "answer": "AB",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 61
+    },
+    {
+      "id": "em-104",
+      "num": 104,
+      "chapter": "第四章 同步电机",
+      "section": "第二节 同步电机的运行状态",
+      "type": "single",
+      "stem": "（2023 届本科第二批）同步电机当转子主磁场超前气隙合成磁场时（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "向电网发出容性无功功率"
+        },
+        {
+          "key": "B",
+          "text": "向电网发出有功功率"
+        },
+        {
+          "key": "C",
+          "text": "从电网吸收有功功率"
+        },
+        {
+          "key": "D",
+          "text": "向电网发出感性无功功率"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 61
+    },
+    {
+      "id": "em-105",
+      "num": 105,
+      "chapter": "第四章 同步电机",
+      "section": "第二节 同步电机的运行状态",
+      "type": "multi",
+      "stem": "(2024 届专科)功率角的定义（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "电枢电流与端电压的夹角"
+        },
+        {
+          "key": "B",
+          "text": "电枢电流与空载电势的夹角"
+        },
+        {
+          "key": "C",
+          "text": "E0 与U 间的夹角"
+        },
+        {
+          "key": "D",
+          "text": "主极磁势与电枢反应磁势间的夹角"
+        }
+      ],
+      "answer": "CD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 61
+    },
+    {
+      "id": "em-106",
+      "num": 106,
+      "chapter": "第四章 同步电机",
+      "section": "第二节 同步电机的运行状态",
+      "type": "judge",
+      "stem": "(2024 届专科)调相机运行时，发有功发无功。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误 60"
+        }
+      ],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 61
+    },
+    {
+      "id": "em-107",
+      "num": 107,
+      "chapter": "第四章 同步电机",
+      "section": "第四节 同步电机的型号和额定值",
+      "type": "single",
+      "stem": "（ 2022 届专科）同步发电机的额定功率为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "电枢（定子）端口输出的电功率"
+        },
+        {
+          "key": "B",
+          "text": "电枢（定子）端口输入的电功率"
+        },
+        {
+          "key": "C",
+          "text": "转轴上输出的机械功率"
+        },
+        {
+          "key": "D",
+          "text": "转轴上输入的机械功率"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 64
+    },
+    {
+      "id": "em-108",
+      "num": 108,
+      "chapter": "第四章 同步电机",
+      "section": "第四节 同步电机的型号和额定值",
+      "type": "single",
+      "stem": "(2024 届专科 ) 同步电动机 T2500-4/2140 中 2500 的含义 （ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入功率 2500kW"
+        },
+        {
+          "key": "B",
+          "text": "输出功率 2500kW"
+        },
+        {
+          "key": "C",
+          "text": "输入功率 2500kVA"
+        },
+        {
+          "key": "D",
+          "text": "输出功 率 2500kVA"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 64
+    },
+    {
+      "id": "em-109",
+      "num": 109,
+      "chapter": "第四章 同步电机",
+      "section": "第五节 同步发电机的运行分析",
+      "type": "multi",
+      "stem": "（2021 届本科第二批）同步发电机运行时，内功率因数角为0°，当A 相电流最大时，下列说法正确的有（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "d 轴超前A 相轴线90°"
+        },
+        {
+          "key": "B",
+          "text": "d 轴滞后A 相轴线90°"
+        },
+        {
+          "key": "C",
+          "text": "主极磁动势超前电枢反应磁动势90°"
+        },
+        {
+          "key": "D",
+          "text": "电枢反应磁动势与A 相轴线重合"
+        }
+      ],
+      "answer": "ACD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 66
+    },
+    {
+      "id": "em-110",
+      "num": 110,
+      "chapter": "第四章 同步电机",
+      "section": "第五节 同步发电机的运行分析",
+      "type": "single",
+      "stem": "（2019 年本科第一批）对于我国当前使用的隐极式同步发电机，同步电机的电枢反应是指（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "同步发电机空载运行时，转子磁场在定子绕组中感应出相同频率的三相电压"
+        },
+        {
+          "key": "B",
+          "text": "同步发电机负载运行时，定子电流产生的磁场在阻尼绕组中感应出同频率的阻尼电流"
+        },
+        {
+          "key": "C",
+          "text": "同步发电机空载运行时，转子磁场在定子绕组中感应出三相对称电压"
+        },
+        {
+          "key": "D",
+          "text": "同步发电机带负载运行时，定子电流产生的磁场对直流励磁产生的主极磁场产生的影响 (2) 电枢反应的功率守恒分析法 直轴电枢反应改变了主极磁场的大小，单机运行时，会引起同步发电机的端电压波动；并 65 网运行时，会影响同步发电机的无功功率和功率因数。简称“直无”交轴电枢反应改变了电枢 合成磁动势与主极磁动势之间的夹角，该夹角的大小决定了能量 ( 有功 ) 的传递方向，是同步发 电机进行能量转换的基础 , 简称“交有”"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [
+        "assets/images/em/em_q106_p67_x604.webp"
+      ],
+      "answerImages": [],
+      "page": 66
+    },
+    {
+      "id": "em-111",
+      "num": 111,
+      "chapter": "第四章 同步电机",
+      "section": "第五节 同步发电机的运行分析",
+      "type": "single",
+      "stem": "（2020 年第二批本科）一台同步发电机忽略电阻，同步电抗为1j，负载阻抗为2-j3，此时发电机电枢反应为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "直轴反应"
+        },
+        {
+          "key": "B",
+          "text": "交轴反应"
+        },
+        {
+          "key": "C",
+          "text": "直轴增磁和交轴电枢反应"
+        },
+        {
+          "key": "D",
+          "text": "直轴去磁和交轴电枢反应"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 67
+    },
+    {
+      "id": "em-112",
+      "num": 112,
+      "chapter": "第四章 同步电机",
+      "section": "第五节 同步发电机的运行分析",
+      "type": "single",
+      "stem": "（2022 届专科）同步发电机运行时功率因数为0.8 滞后，则电枢反应为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "纯直轴去磁"
+        },
+        {
+          "key": "B",
+          "text": "纯直轴增磁"
+        },
+        {
+          "key": "C",
+          "text": "交轴和直轴去磁"
+        },
+        {
+          "key": "D",
+          "text": "交轴和直轴增磁"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 67
+    },
+    {
+      "id": "em-113",
+      "num": 113,
+      "chapter": "第四章 同步电机",
+      "section": "第五节 同步发电机的运行分析",
+      "type": "single",
+      "stem": "（2023 届本科一批）同步发电机带负载后的电枢反应为交轴和直轴去磁，则带负载后机端电压和空载电动势相比（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": ".升高"
+        },
+        {
+          "key": "B",
+          "text": "降低"
+        },
+        {
+          "key": "C",
+          "text": "不变"
+        },
+        {
+          "key": "D",
+          "text": "以上都有可能"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 67
+    },
+    {
+      "id": "em-114",
+      "num": 114,
+      "chapter": "第四章 同步电机",
+      "section": "第五节 同步发电机的运行分析",
+      "type": "multi",
+      "stem": "（2021 届本科第二批）同步发电机带感性负载，励磁电流保持不变，负载增加时（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "机端电压升高"
+        },
+        {
+          "key": "B",
+          "text": "机端电压下降"
+        },
+        {
+          "key": "C",
+          "text": "直轴电枢反应为去磁"
+        },
+        {
+          "key": "D",
+          "text": "直轴电枢反应为增磁"
+        }
+      ],
+      "answer": "BC",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 67
+    },
+    {
+      "id": "em-115",
+      "num": 115,
+      "chapter": "第四章 同步电机",
+      "section": "第五节 同步发电机的运行分析",
+      "type": "judge",
+      "stem": "（2023 届本科一批）当同步发电机电枢反应为交磁及直轴去磁时，带负载后端电压与空载电压相比会降低（ ） 66",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 67
+    },
+    {
+      "id": "em-116",
+      "num": 116,
+      "chapter": "第四章 同步电机",
+      "section": "第六节 隐极同步发电机的等值电路及轴系位置",
+      "type": "judge",
+      "stem": "（ 2017 届本科第一批）在同步发电机的功角特性中，功角的含义就是同步发电机的空载电势与定子电流之间的相位角。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 69
+    },
+    {
+      "id": "em-117",
+      "num": 117,
+      "chapter": "第四章 同步电机",
+      "section": "第六节 隐极同步发电机的等值电路及轴系位置",
+      "type": "single",
+      "stem": "「较难」（2018 年第二批本科）一台汽轮发电机，Y 接线，其参数P N =25000kW,U N =10.5kV,cos φ N =0.8（ φ N >0），同步电抗Xs=7Ω，则该发电机在额定状态下运行时，功角 δ 为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "34.5°"
+        },
+        {
+          "key": "B",
+          "text": "35.93°"
+        },
+        {
+          "key": "C",
+          "text": "17.06°"
+        },
+        {
+          "key": "D",
+          "text": "36.87°"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 69
+    },
+    {
+      "id": "em-118",
+      "num": 118,
+      "chapter": "第四章 同步电机",
+      "section": "第六节 隐极同步发电机的等值电路及轴系位置",
+      "type": "single",
+      "stem": "「较难」一台汽轮发电机，Y 接线，其参数P N =25000kW,U N =10.5kV,cos φ N =0.8（ φ N >0），同步电抗Xs=7Ω，则该发电机在额定状态下运行时，空载电动势E0 为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "12.8kV"
+        },
+        {
+          "key": "B",
+          "text": "6.06kV"
+        },
+        {
+          "key": "C",
+          "text": "16.4kV"
+        },
+        {
+          "key": "D",
+          "text": "3.3kV 68"
+        }
+      ],
+      "answer": "C",
+      "explanation": "相电压 U_Nφ = 10.5/√3 = 6.062kV，额定电流 I_N = 25000/(√3×10.5×0.8) ≈ 1718A，I_N X_s ≈ 12.03kV；由相量图 E_0φ = √[(U_Nφ + I_N X_s sinφ)² + (I_N X_s cosφ)²] ≈ 16.4kV（注意本题问的是每相空载电动势或按原题标准答案 C.16.4kV）。",
+      "images": [],
+      "answerImages": [],
+      "page": 69
+    },
+    {
+      "id": "em-119",
+      "num": 119,
+      "chapter": "第四章 同步电机",
+      "section": "第七节 凸极同步发电机的等值电路",
+      "type": "single",
+      "stem": "「较难」一台水轮发电机，Y 接线，其参数为：P N =25000kW,U N =10.5kV,cosφ N =0.8（φ N >0），Xd=9Ω，Xq=7Ω，则该发电机在额定状态下运行时，功角δ为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "34.5°"
+        },
+        {
+          "key": "B",
+          "text": "35.93°"
+        },
+        {
+          "key": "C",
+          "text": "17.06°"
+        },
+        {
+          "key": "D",
+          "text": "36.87°"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 72
+    },
+    {
+      "id": "em-120",
+      "num": 120,
+      "chapter": "第四章 同步电机",
+      "section": "第七节 凸极同步发电机的等值电路",
+      "type": "single",
+      "stem": "「较难,期末或考研大题」 （单选)一台水轮发电机，Y 接线，其参数为：P N =25000kW,U N =10.5kV,cos φ N =0.8（φ N >0），Xd=9Ω，Xq=7Ω，则该发电机在额定状态下运行时，空载电动势E0 为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "16.4kV"
+        },
+        {
+          "key": "B",
+          "text": "19.7kV"
+        },
+        {
+          "key": "C",
+          "text": "3.3kV"
+        },
+        {
+          "key": "D",
+          "text": "17.4kV"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 72
+    },
+    {
+      "id": "em-121",
+      "num": 121,
+      "chapter": "第四章 同步电机",
+      "section": "同步电抗与短路比（典型例题 6-3）",
+      "type": "essay",
+      "stem": "【典型例题 6-3】（出自汤蕴璆《电机学》第 5 版 P270）有一台 25000kW、10.5kV（Y 联结）、cosφ = 0.8（滞后）的汽轮发电机，从空载和短路试验中得到下列数据：\n• 空载特性上查得：相电压 U_Nφ = 10.5/√3 kV 时，I_f0 = 155A；\n• 短路特性上查得：I = I_N = 1718A 时，I_fk = 280A；\n• 气隙线上查得：E_0 = 22.4/√3 kV 时，I_f = 280A。\n试求同步电抗的不饱和值及饱和值的标幺值和实际值，以及短路比 K_c。",
+      "options": [],
+      "answer": "基准阻抗 Z_N = U_Nφ / I_N = (10500/√3) / 1718 ≈ 3.53Ω：\n（1）不饱和同步电抗实际值：X_d(不饱和) = E_0(气隙线, I_f=280A) / I_N = (22400/√3) / 1718 ≈ 7.53Ω；\n    不饱和标幺值：X_d*(不饱和) = 7.53 / 3.53 ≈ 2.13（或直接 22.4 / 10.5 = 2.13）；\n（2）饱和同步电抗标幺值：X_d*(饱和) = I_fk / I_f0 = 280 / 155 ≈ 1.81；\n    饱和实际值：X_d(饱和) = 1.81 × 3.53 ≈ 6.38Ω；\n（3）短路比：K_c = I_f0 / I_fk = 155 / 280 ≈ 0.554（= 1 / X_d*(饱和)）。",
+      "explanation": "注意短路比 K_c = 1 / X_d*(饱和)，不饱和值一定要从气隙线（线性延长线）读取电动势！可展开下方原版手写板书图核对。",
+      "images": [],
+      "answerImages": [
+        "assets/images/em/em_ex04_sol_p74.webp"
+      ],
+      "page": 76
+    },
+    {
+      "id": "em-122",
+      "num": 122,
+      "chapter": "第四章 同步电机",
+      "section": "第九节 同步发电机电抗的测定",
+      "type": "judge",
+      "stem": "（2018 年第一批本科）短路比大，则同步电抗小，负载变化时发电机的电压变化率小，发电机的稳定性好。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 78
+    },
+    {
+      "id": "em-123",
+      "num": 123,
+      "chapter": "第四章 同步电机",
+      "section": "第九节 同步发电机电抗的测定",
+      "type": "single",
+      "stem": "（2018 年第二批本科）图中曲线为同步发电机的（ ）曲线",
+      "options": [
+        {
+          "key": "A",
+          "text": "短路特性"
+        },
+        {
+          "key": "B",
+          "text": "外特性"
+        },
+        {
+          "key": "C",
+          "text": "调整特性"
+        },
+        {
+          "key": "D",
+          "text": "空载特性"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [
+        "assets/images/em/em_q118_p78_x689.webp"
+      ],
+      "answerImages": [],
+      "page": 78
+    },
+    {
+      "id": "em-124",
+      "num": 124,
+      "chapter": "第四章 同步电机",
+      "section": "第九节 同步发电机电抗的测定",
+      "type": "single",
+      "stem": "（2019 年本科第一批）同步发电机的定子漏电抗可由（ ）计算得到。 77",
+      "options": [
+        {
+          "key": "A",
+          "text": "零功率因数特性和空载特性"
+        },
+        {
+          "key": "B",
+          "text": "零功率因数特性和调整特性"
+        },
+        {
+          "key": "C",
+          "text": "调整特性和空载特性"
+        },
+        {
+          "key": "D",
+          "text": "短路特性和调整特性"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 78
+    },
+    {
+      "id": "em-125",
+      "num": 125,
+      "chapter": "第四章 同步电机",
+      "section": "第九节 同步发电机电抗的测定",
+      "type": "single",
+      "stem": "（2019 年本科第一批）在测试零功率因数负载特性时，同步发电机的定子电流保持为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.5 倍额定电流"
+        },
+        {
+          "key": "B",
+          "text": "0.1 倍额定电流"
+        },
+        {
+          "key": "C",
+          "text": "1.5 倍额定电流"
+        },
+        {
+          "key": "D",
+          "text": "额定电流"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 79
+    },
+    {
+      "id": "em-126",
+      "num": 126,
+      "chapter": "第四章 同步电机",
+      "section": "第九节 同步发电机电抗的测定",
+      "type": "single",
+      "stem": "（2021 届专科）凸极同步发电机的短路特性曲线特点（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "过原点饱和曲线"
+        },
+        {
+          "key": "B",
+          "text": "过原点直线"
+        },
+        {
+          "key": "C",
+          "text": "不过原点的直线"
+        },
+        {
+          "key": "D",
+          "text": "不 过原点饱和曲线"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 79
+    },
+    {
+      "id": "em-127",
+      "num": 127,
+      "chapter": "第四章 同步电机",
+      "section": "第九节 同步发电机电抗的测定",
+      "type": "judge",
+      "stem": "（2022 届专科）通过同步发电机的空载试验和短路试验可以测量凸极机的交轴电抗。 （ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 79
+    },
+    {
+      "id": "em-128",
+      "num": 128,
+      "chapter": "第四章 同步电机",
+      "section": "第九节 同步发电机电抗的测定",
+      "type": "single",
+      "stem": "（2023 届本科第二批）根据凸极同步机空载特性曲线和短路特性曲线能够测（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "直轴不饱和电抗"
+        },
+        {
+          "key": "B",
+          "text": "交轴不饱和电抗"
+        },
+        {
+          "key": "C",
+          "text": "交轴饱和电抗"
+        },
+        {
+          "key": "D",
+          "text": "直轴饱和电抗"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 79
+    },
+    {
+      "id": "em-129",
+      "num": 129,
+      "chapter": "第四章 同步电机",
+      "section": "第九节 同步发电机电抗的测定",
+      "type": "multi",
+      "stem": "根据凸极同步机空载实验和短路实验能够测（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "直轴不饱和电抗"
+        },
+        {
+          "key": "B",
+          "text": "交轴不饱和电抗"
+        },
+        {
+          "key": "C",
+          "text": "交轴饱和电抗"
+        },
+        {
+          "key": "D",
+          "text": "直轴饱和电抗"
+        }
+      ],
+      "answer": "AD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 79
+    },
+    {
+      "id": "em-130",
+      "num": 130,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "multi",
+      "stem": "（2021 届专科）同步发电机并网的条件（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "相序相同"
+        },
+        {
+          "key": "B",
+          "text": "频率相同"
+        },
+        {
+          "key": "C",
+          "text": "电压幅值相同"
+        },
+        {
+          "key": "D",
+          "text": "电压相位相同"
+        }
+      ],
+      "answer": "ABCD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 83
+    },
+    {
+      "id": "em-131",
+      "num": 131,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "single",
+      "stem": "（2022 届本科二批）同步发电机并网时，若发电机端电压幅值大于电网电压幅值，则并网后发电机（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "输出滞后电流"
+        },
+        {
+          "key": "B",
+          "text": "输出超前电流"
+        },
+        {
+          "key": "C",
+          "text": "吸收滞后电流"
+        },
+        {
+          "key": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 83
+    },
+    {
+      "id": "em-132",
+      "num": 132,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "single",
+      "stem": "（2020 年第二批本科）凸极同步发电机最大电磁功率出现在功角（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "0°"
+        },
+        {
+          "key": "B",
+          "text": "45°"
+        },
+        {
+          "key": "C",
+          "text": "45°~90°"
+        },
+        {
+          "key": "D",
+          "text": "90°"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 84
+    },
+    {
+      "id": "em-133",
+      "num": 133,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "multi",
+      "stem": "（2021 届本科第一批）下列与凸极电动机基本电磁功率有关的有（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "直轴电抗的大小"
+        },
+        {
+          "key": "B",
+          "text": "励磁电流的大小"
+        },
+        {
+          "key": "C",
+          "text": "交轴电抗的大小"
+        },
+        {
+          "key": "D",
+          "text": "功角δ的大小"
+        }
+      ],
+      "answer": "ABD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 84
+    },
+    {
+      "id": "em-134",
+      "num": 134,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "single",
+      "stem": "（2020 年第二批本科）一台发电机和电动机并联在同一个电源上，功率因数都为cos φ=0.8(滞后)，有功都为100kW，问总无功功率是多少（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "0kVar"
+        },
+        {
+          "key": "B",
+          "text": "75kVar"
+        },
+        {
+          "key": "C",
+          "text": "150kVar"
+        },
+        {
+          "key": "D",
+          "text": "250kVar"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 87
+    },
+    {
+      "id": "em-135",
+      "num": 135,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "single",
+      "stem": "（2018 年第二批本科）一台并联在无穷大电网上运行的汽轮发电机，输出电流为额定电流，功率因数为cos φ =0.5（ φ >0）。若保持输出额定电流不变，并使功率因数增加到cos φ =0.8（ φ >0），需要（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "增加输入功率；励磁电流不变"
+        },
+        {
+          "key": "B",
+          "text": "减少输入功率；增加励磁电流"
+        },
+        {
+          "key": "C",
+          "text": "增加输入功率；减少励磁电流"
+        },
+        {
+          "key": "D",
+          "text": "输入功率不变；增加励磁电流"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 88
+    },
+    {
+      "id": "em-136",
+      "num": 136,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "single",
+      "stem": "（2021 届本科第一批）同步机电动机，带额定负载，功率因数为1，已知激磁电流不变，突然空载后功率因数怎么变？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "超前"
+        },
+        {
+          "key": "B",
+          "text": "滞后"
+        },
+        {
+          "key": "C",
+          "text": "不变"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 88
+    },
+    {
+      "id": "em-137",
+      "num": 137,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "single",
+      "stem": "（2023 届本科一批）隐极同步发电机，有功输出不变。开始时处于过励运行状态，现逐渐减小励磁电流，则定子电流（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "一直减小"
+        },
+        {
+          "key": "B",
+          "text": "一直增大"
+        },
+        {
+          "key": "C",
+          "text": "先增大后减小"
+        },
+        {
+          "key": "D",
+          "text": "先减小后增大"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 88
+    },
+    {
+      "id": "em-138",
+      "num": 138,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "single",
+      "stem": "（2020 年第二批本科）一台同步发电机cosφ=1，保持励磁电流不变，增大原动机气门。则增大后处于什么励磁（ ），功角如何变化（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "过励磁，增大"
+        },
+        {
+          "key": "B",
+          "text": "欠励磁，增大"
+        },
+        {
+          "key": "C",
+          "text": "过励磁，减小"
+        },
+        {
+          "key": "D",
+          "text": "欠励磁，减小"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 89
+    },
+    {
+      "id": "em-139",
+      "num": 139,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "single",
+      "stem": "（2022 届本科二批）同步发电机过励磁并网运行时，若有功P 保持不变，增大励磁电流后，功率角和功率因数角如何变化（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "功率角变大，功率因数角变大，"
+        },
+        {
+          "key": "B",
+          "text": "功率角变大，功率因数角变小"
+        },
+        {
+          "key": "C",
+          "text": "功率角变小，功率因数角变小，"
+        },
+        {
+          "key": "D",
+          "text": "功率角变小，功率因数角变大"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 89
+    },
+    {
+      "id": "em-140",
+      "num": 140,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "multi",
+      "stem": "（2023 届本科一批）同步发电机输出的有功变大，无功不变。定子电流和空载电动势如何变化（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "定子电流变大"
+        },
+        {
+          "key": "B",
+          "text": "空载电动势变大"
+        },
+        {
+          "key": "C",
+          "text": "定子电流变小"
+        },
+        {
+          "key": "D",
+          "text": "空载电动势变小"
+        }
+      ],
+      "answer": "AB",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 89
+    },
+    {
+      "id": "em-141",
+      "num": 141,
+      "chapter": "第四章 同步电机",
+      "section": "第十一节 同步发电机并网运行及功率调节方法",
+      "type": "single",
+      "stem": "（2023 届专科）同步发电机励磁电流保持不变，增大原动机输入，关于输出说法正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "有功增大，无功减小"
+        },
+        {
+          "key": "B",
+          "text": "有功减小，无功减小"
+        },
+        {
+          "key": "C",
+          "text": "有功增大，去功增大"
+        },
+        {
+          "key": "D",
+          "text": "有功减小，无功增大"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 89
+    },
+    {
+      "id": "em-142",
+      "num": 142,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "（2022 届专科）已知感应电动机转子转速为720 转/分，则其同步速度为（ ）极对数为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "750 转/分，8"
+        },
+        {
+          "key": "B",
+          "text": "750 转/分，4"
+        },
+        {
+          "key": "C",
+          "text": "1500 转/分，2"
+        },
+        {
+          "key": "D",
+          "text": "1500 转/分，4"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 94
+    },
+    {
+      "id": "em-143",
+      "num": 143,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "judge",
+      "stem": "（2023 届专科）异步电动机堵转时的转差率为1（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 94
+    },
+    {
+      "id": "em-144",
+      "num": 144,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "(2024 届专科)一台异步电机，额定转速980r/min,电源频率50Hz,极对数为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 94
+    },
+    {
+      "id": "em-145",
+      "num": 145,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "（2024 届本科第二批）异步电机转差率为-0.03,极数为8,频率为50Hz,求转子的转速（ ）r/min",
+      "options": [
+        {
+          "key": "A",
+          "text": "750"
+        },
+        {
+          "key": "B",
+          "text": "772.5"
+        },
+        {
+          "key": "C",
+          "text": "1000"
+        },
+        {
+          "key": "D",
+          "text": "1200"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 94
+    },
+    {
+      "id": "em-146",
+      "num": 146,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "一台50Hz 三相感应电动机的转速为n=720r/min,该电机的极数和同步转速为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "4 极，1500r/min"
+        },
+        {
+          "key": "B",
+          "text": "6 极，1000r/min"
+        },
+        {
+          "key": "C",
+          "text": "8 极，750r/min"
+        },
+        {
+          "key": "D",
+          "text": "10 极，600r/min 93"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 94
+    },
+    {
+      "id": "em-147",
+      "num": 147,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "（2020 本科第一批）异步电机转差率在（ ）时，电机处于发电机运行状态。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0<s<1"
+        },
+        {
+          "key": "B",
+          "text": "s<0"
+        },
+        {
+          "key": "C",
+          "text": "s>1"
+        },
+        {
+          "key": "D",
+          "text": "以上都不正确"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 95
+    },
+    {
+      "id": "em-148",
+      "num": 148,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "（2021 届本科第一批）异步电机，极对数为4，转速800r/min，且与磁场方向相同，问电机处于什么状态（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "发电机"
+        },
+        {
+          "key": "B",
+          "text": "电动机"
+        },
+        {
+          "key": "C",
+          "text": "电磁制动"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 95
+    },
+    {
+      "id": "em-149",
+      "num": 149,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "judge",
+      "stem": "（2022 届本科第一批）异步电动机工作在s>1 时，其运行状态为电磁制动（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 95
+    },
+    {
+      "id": "em-150",
+      "num": 150,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "fill",
+      "stem": "三相感应电机转速为n,定子旋转磁场的转速为n1，当n>n1 为（ ）运行状态。",
+      "options": [],
+      "answer": "发电机",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 95
+    },
+    {
+      "id": "em-151",
+      "num": 151,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "fill",
+      "stem": "三相感应电动机定子绕组接于50Hz 的电源上，转速为1555r/min,此时为（ ）运行状态。 94",
+      "options": [],
+      "answer": "发电机",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 95
+    },
+    {
+      "id": "em-152",
+      "num": 152,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "fill",
+      "stem": "一台三相感应电动机的电网频率为50Hz,运行转速为735r/min,此时为（ ）状态。",
+      "options": [],
+      "answer": "电动机",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 96
+    },
+    {
+      "id": "em-153",
+      "num": 153,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "（2023 届本科第二批）三相6 极异步电动机带额定负载运行时，定子频率为50Hz，转子转速为960r/min，则转子频率为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "50Hz"
+        },
+        {
+          "key": "B",
+          "text": "49Hz"
+        },
+        {
+          "key": "C",
+          "text": "2Hz"
+        },
+        {
+          "key": "D",
+          "text": "1Hz"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 97
+    },
+    {
+      "id": "em-154",
+      "num": 154,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "一台三相异步电机，定子绕组接到的三相对称电源上，已知它运行在额定转速n=980r/min状态下，则定子旋转磁场相对于转子的运动速度为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "980"
+        },
+        {
+          "key": "D",
+          "text": "1000"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 97
+    },
+    {
+      "id": "em-155",
+      "num": 155,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "一台三相异步电机，定子绕组接到的三相对称电源上，已知它运行在额定转速n=980r/min状态下，则定子旋转磁场相对于定子的运动速度为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "980"
+        },
+        {
+          "key": "D",
+          "text": "1000"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 97
+    },
+    {
+      "id": "em-156",
+      "num": 156,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "一台三相异步电机，定子绕组接到的三相对称电源上，已知它运行在额定转速n=980r/min状态下，则定子旋转磁场相对于转子磁场的运动速度为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "980"
+        },
+        {
+          "key": "D",
+          "text": "1000"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 97
+    },
+    {
+      "id": "em-157",
+      "num": 157,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "一台三相异步电机，定子绕组接到的三相对称电源上，已知它运行在额定转速n=980r/min 96状态下，则转子旋转磁场相对于转子的运动速度为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "980"
+        },
+        {
+          "key": "D",
+          "text": "1000"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 97
+    },
+    {
+      "id": "em-158",
+      "num": 158,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "一台三相异步电机，定子绕组接到的三相对称电源上，已知它运行在额定转速n=980r/min状态下，则转子旋转磁场相对于定子的运动速度为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "980"
+        },
+        {
+          "key": "D",
+          "text": "1000"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 98
+    },
+    {
+      "id": "em-159",
+      "num": 159,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "（2023 届本科一批）稳定运行时，异步电机的定子磁动势是（ ）磁动势，转子磁动势是（ ）磁动势，定转子磁动势的相对运动为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "脉振旋转周期性旋转"
+        },
+        {
+          "key": "B",
+          "text": "旋转旋转周期性旋转"
+        },
+        {
+          "key": "C",
+          "text": "旋转旋转相对静止"
+        },
+        {
+          "key": "D",
+          "text": "脉振脉振相对静止"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 98
+    },
+    {
+      "id": "em-160",
+      "num": 160,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "multi",
+      "stem": "（2023 届本科一批）异步电动机带负载运行时，定子磁动势和转子磁动势（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "定子磁动势空间的位置超前转子磁动势空间的位置"
+        },
+        {
+          "key": "B",
+          "text": "定子磁动势和转子磁动势速度相同"
+        },
+        {
+          "key": "C",
+          "text": "定子磁动势是脉振，转子磁动势是旋转"
+        },
+        {
+          "key": "D",
+          "text": "两个都是旋转磁动势"
+        }
+      ],
+      "answer": "ABD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 98
+    },
+    {
+      "id": "em-161",
+      "num": 161,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "single",
+      "stem": "笼型三相感应电动机的额定转速下降10%,该电机转子电流产生的旋转磁动势相对于定子的转速（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "上升10%"
+        },
+        {
+          "key": "B",
+          "text": "下降10%"
+        },
+        {
+          "key": "C",
+          "text": "上升1/（1+10%）"
+        },
+        {
+          "key": "D",
+          "text": "不变"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 98
+    },
+    {
+      "id": "em-162",
+      "num": 162,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "judge",
+      "stem": "三相感应电动机转子为任意转数时，定、转子合成基波磁动势转速不变。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 98
+    },
+    {
+      "id": "em-163",
+      "num": 163,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "fill",
+      "stem": "一台三相感应电动机的电网频率为50Hz,负载运行时转速为735r/min,此时转差率为（ ），转子电动势的频率为（ ）,当转差率为0.04 时，转子的转速为（ ）r/min,转子的电动势频率为（ ）",
+      "options": [],
+      "answer": "0.02 1Hz；720；2Hz",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 98
+    },
+    {
+      "id": "em-164",
+      "num": 164,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "fill",
+      "stem": "当三相感应电动机定子绕组接于50Hz 的电源上，运行转速为1455r/min,则定子电流的频率为（ ）,定子绕组感应电动势的频率为（ ）,转差率为（ ）,此时转子电流的频率为（ ）",
+      "options": [],
+      "answer": "50Hz；50Hz；0.03；1.5Hz",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 98
+    },
+    {
+      "id": "em-165",
+      "num": 165,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "judge",
+      "stem": "定、转子磁动势相对静止是一切电机能正常运行的必要条件。（ ） 97第三节三相感应电动机的额定值感应电动机铭牌上均标明其额定值和一些与运行有关的技术数据。按铭牌指定的条件和额定值运行时就叫做额定运行状态。因电动机都是按额定运行状态进行设计，因此额定状态下的性能较好。按我国国家标准，感应电动机的额定值有： （ 1 ） 额定功率 P N ： 电动机在额定状态下运行时，轴上输出的机械功率，单位为 W （瓦）或kW （千瓦）。 （ 2 ） 额定电压 U N ： 电动机在额定状态下运行时，定子绕组应加的线电压，单位为 V （伏）。 （ 3 ） 额定电流 I N ： 电动机在额定电压下运行，输出功率达到额定功率时，流入定子绕组的线电流，单位为 A （安) （ 4 ） 额定频率 / N ： 加于定子边的电源频率，我国工频规定为 50Hz （赫兹）。 （ 5 ） 额定转速 \" N ： 电动机在额定状态下运行时转子的转速，单位为 r/min （转/分）。此外，铭牌上还标有功率因数、效率、温升（或绝缘等级）及其他一些使用条件。对绕线式电动机，还常标出转子额定电压、额定电流等数据。",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 98
+    },
+    {
+      "id": "em-166",
+      "num": 166,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "judge",
+      "stem": "（2022 届专科）感应电动机的功率因数总是滞后的（ ）。",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 99
+    },
+    {
+      "id": "em-167",
+      "num": 167,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "judge",
+      "stem": "（2023 届专科）异步电动机的额定功率为转子侧输出的机械功率（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 99
+    },
+    {
+      "id": "em-168",
+      "num": 168,
+      "chapter": "第五章 感应电机",
+      "section": "第二节 三相感应电机运行原理",
+      "type": "judge",
+      "stem": "三相感应电动机的功率因数cosφ1 总是滞后的。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 99
+    },
+    {
+      "id": "em-169",
+      "num": 169,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "single",
+      "stem": "（2022 届专科）同步电机与感应电机相比气隙（ ），电抗（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "大,小"
+        },
+        {
+          "key": "B",
+          "text": "大，大，"
+        },
+        {
+          "key": "C",
+          "text": "小，小"
+        },
+        {
+          "key": "D",
+          "text": "小,大"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 101
+    },
+    {
+      "id": "em-170",
+      "num": 170,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "single",
+      "stem": "（2024 届本科第一批）异步电机气隙变大，则（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "励磁电流变大，空载时功率因数降低"
+        },
+        {
+          "key": "B",
+          "text": "励磁电流变小，空载时功率因数提高"
+        },
+        {
+          "key": "C",
+          "text": "励磁电流变大，空载时功率因数提高"
+        },
+        {
+          "key": "D",
+          "text": "励磁电流变小，空载时功率因数降低"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 101
+    },
+    {
+      "id": "em-171",
+      "num": 171,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "single",
+      "stem": "变压器、同步电机、异步电机的气隙大小排序正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "变压器<同步电机<异步电机"
+        },
+        {
+          "key": "B",
+          "text": "变压器<异步电机<同步电机"
+        },
+        {
+          "key": "C",
+          "text": "同步电机<异步电机<变压器"
+        },
+        {
+          "key": "D",
+          "text": "异步电机<变压器<同步电机"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 101
+    },
+    {
+      "id": "em-172",
+      "num": 172,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "single",
+      "stem": "三相异步电动机设计时，仅将转子和定子之间的气隙变小，则额定运行时，电机的功率因数cos φ（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "增大"
+        },
+        {
+          "key": "B",
+          "text": "减小"
+        },
+        {
+          "key": "C",
+          "text": "不变"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 101
+    },
+    {
+      "id": "em-173",
+      "num": 173,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "single",
+      "stem": "异步电动机和变压器在额定电压时，空载电流标幺值哪个大（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "异步电机大"
+        },
+        {
+          "key": "B",
+          "text": "变压器大"
+        },
+        {
+          "key": "C",
+          "text": "无法判断"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 101
+    },
+    {
+      "id": "em-174",
+      "num": 174,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "judge",
+      "stem": "在机械和工艺容许的条件下，感应电机的气隙越小越好。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 101
+    },
+    {
+      "id": "em-175",
+      "num": 175,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "single",
+      "stem": "三相感应电动机气隙增大，其他条件不变，则空载电流（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "增大"
+        },
+        {
+          "key": "B",
+          "text": "减小"
+        },
+        {
+          "key": "C",
+          "text": "不变"
+        },
+        {
+          "key": "D",
+          "text": "不能确定"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 101
+    },
+    {
+      "id": "em-176",
+      "num": 176,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "judge",
+      "stem": "感应电动机空载运行时的功率因数很高。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 101
+    },
+    {
+      "id": "em-177",
+      "num": 177,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "single",
+      "stem": "设计在f =50Hz 电源上运行的三相感应电动机，现改为在电压相同,频率为60Hz 的电网上，电动机的空载电流将（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "增大"
+        },
+        {
+          "key": "B",
+          "text": "减小"
+        },
+        {
+          "key": "C",
+          "text": "不变"
+        },
+        {
+          "key": "D",
+          "text": "不能确定 100"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 101
+    },
+    {
+      "id": "em-178",
+      "num": 178,
+      "chapter": "第五章 感应电机",
+      "section": "第四节 三相感应电动机等效电路",
+      "type": "single",
+      "stem": "若减少三相异步电动机定子绕组匝数，其他条件不变，则空载电流（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "增大"
+        },
+        {
+          "key": "B",
+          "text": "减小"
+        },
+        {
+          "key": "C",
+          "text": "不变"
+        },
+        {
+          "key": "D",
+          "text": "不能确定 10(填空)一台三相异步电动机的额定功率P N 是指额定运行时的( )功率，如果撤换其定子绕 组，减少每相匝数，在电源电压不变的条件下，气隙中的每极磁通将( )"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 102
+    },
+    {
+      "id": "em-179",
+      "num": 179,
+      "chapter": "第五章 感应电机",
+      "section": "第五节 感应电动机的功率方程和转矩方程",
+      "type": "fill",
+      "stem": "如果感应电机运行时转差率为s,则电磁功率、机械功率和转子铜耗之间的比例是P e :P Ω ： P Cu2 =（ ） 1- s s R 2 ’ 上所消耗的电功率应等于(",
+      "options": [],
+      "answer": "1:(1-s):s",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 102
+    },
+    {
+      "id": "em-180",
+      "num": 180,
+      "chapter": "第五章 感应电机",
+      "section": "第五节 感应电动机的功率方程和转矩方程",
+      "type": "single",
+      "stem": "三相感应电动机等效电路中的附加电阻) 101",
+      "options": [
+        {
+          "key": "A",
+          "text": "输出功率P2"
+        },
+        {
+          "key": "B",
+          "text": "输入功率P1"
+        },
+        {
+          "key": "C",
+          "text": "电磁功率Pe"
+        },
+        {
+          "key": "D",
+          "text": "全机械功率PΩ"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 102
+    },
+    {
+      "id": "em-181",
+      "num": 181,
+      "chapter": "第五章 感应电机",
+      "section": "第五节 感应电动机的功率方程和转矩方程",
+      "type": "judge",
+      "stem": "当三相感应电动机转子绕组短接并堵转时，轴上的输出功率为零，则定子侧输入功率亦为零。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 103
+    },
+    {
+      "id": "em-182",
+      "num": 182,
+      "chapter": "第五章 感应电机",
+      "section": "第五节 感应电动机的功率方程和转矩方程",
+      "type": "fill",
+      "stem": "三相感应电动机空载运行时，电机内损耗包括（ ）和附加损耗，电动机空载输入功率P0 与这些损耗相平衡。",
+      "options": [],
+      "answer": "定子铁耗、机械损耗、定子铜耗",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 103
+    },
+    {
+      "id": "em-183",
+      "num": 183,
+      "chapter": "第五章 感应电机",
+      "section": "第五节 感应电动机的功率方程和转矩方程",
+      "type": "single",
+      "stem": "如果有一台三相感应电动机运行在转差率为s =0.25,此时通过气隙传递的功率有（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "25%是转子铜耗"
+        },
+        {
+          "key": "B",
+          "text": "75%是转子铜耗"
+        },
+        {
+          "key": "C",
+          "text": "75%是输出功率"
+        },
+        {
+          "key": "D",
+          "text": "75%是电磁功率"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 103
+    },
+    {
+      "id": "em-184",
+      "num": 184,
+      "chapter": "第五章 感应电机",
+      "section": "第五节 感应电动机的功率方程和转矩方程",
+      "type": "single",
+      "stem": "（2020 年第二批本科）一台异步电动机转差率为s=0.02，转子铜耗为200W，则总机械功率为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "10000W"
+        },
+        {
+          "key": "B",
+          "text": "200W"
+        },
+        {
+          "key": "C",
+          "text": "9800W"
+        },
+        {
+          "key": "D",
+          "text": "4W"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 103
+    },
+    {
+      "id": "em-185",
+      "num": 185,
+      "chapter": "第五章 感应电机",
+      "section": "第五节 感应电动机的功率方程和转矩方程",
+      "type": "single",
+      "stem": "（2023 届本科第二批）一台三相四极异步电动机，转子速度等于1470r/min，则电磁功率中有多少转化为转子铜耗（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "2%"
+        },
+        {
+          "key": "B",
+          "text": "4%"
+        },
+        {
+          "key": "C",
+          "text": "96%"
+        },
+        {
+          "key": "D",
+          "text": "98%"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 103
+    },
+    {
+      "id": "em-186",
+      "num": 186,
+      "chapter": "第五章 感应电机",
+      "section": "第五节 感应电动机的功率方程和转矩方程",
+      "type": "single",
+      "stem": "三相感应电动机电磁转矩的大小和 （ ） 成正比。",
+      "options": [
+        {
+          "key": "A",
+          "text": "电磁功率"
+        },
+        {
+          "key": "B",
+          "text": "输出功率"
+        },
+        {
+          "key": "C",
+          "text": "输入功率"
+        },
+        {
+          "key": "D",
+          "text": "全机械功率"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 104
+    },
+    {
+      "id": "em-187",
+      "num": 187,
+      "chapter": "第五章 感应电机",
+      "section": "第五节 感应电动机的功率方程和转矩方程",
+      "type": "single",
+      "stem": "（2022 届专科）异步电动机的电磁转距与（ ）成正比？",
+      "options": [
+        {
+          "key": "A",
+          "text": "输出功率"
+        },
+        {
+          "key": "B",
+          "text": "定子铜耗"
+        },
+        {
+          "key": "C",
+          "text": "电磁功率"
+        },
+        {
+          "key": "D",
+          "text": "转子铜耗"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 104
+    },
+    {
+      "id": "em-188",
+      "num": 188,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "single",
+      "stem": "（2020 年第二批本科）异步电动机，转子导条由铝导条换为铜导条后，对启动转矩和最大转矩的影响（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "最大转矩不变，启动转矩减小"
+        },
+        {
+          "key": "B",
+          "text": "最大转矩不变，启动转矩增大"
+        },
+        {
+          "key": "C",
+          "text": "最大转矩减小，启动转矩不变"
+        },
+        {
+          "key": "D",
+          "text": "最大转矩增大，启动转矩减小"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 107
+    },
+    {
+      "id": "em-189",
+      "num": 189,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "multi",
+      "stem": "（2022 届本科一批）对于异步电动机的最大电磁转矩说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "与电源频率无关"
+        },
+        {
+          "key": "B",
+          "text": "与电源相电压的平方成正比"
+        },
+        {
+          "key": "C",
+          "text": "与转子电阻无关"
+        },
+        {
+          "key": "D",
+          "text": "与负载大小无关"
+        }
+      ],
+      "answer": "BCD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 107
+    },
+    {
+      "id": "em-190",
+      "num": 190,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "judge",
+      "stem": "（2022 届本科二批）异步电动机转子串电阻后，最大转矩和临界转差率都会改变。 （ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 107
+    },
+    {
+      "id": "em-191",
+      "num": 191,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "single",
+      "stem": "(2024 届专科)异步电动机的最大转矩与电压的关系（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "与电压成反比"
+        },
+        {
+          "key": "B",
+          "text": "与电压的平方成反比"
+        },
+        {
+          "key": "C",
+          "text": "与电压的平方成正比"
+        },
+        {
+          "key": "D",
+          "text": "与电压成正比"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 107
+    },
+    {
+      "id": "em-192",
+      "num": 192,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "multi",
+      "stem": "（2024 届本科第二批）异步电动机转子电阻增加时（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "最大转矩不变"
+        },
+        {
+          "key": "B",
+          "text": "最大转矩变小"
+        },
+        {
+          "key": "C",
+          "text": "起动转矩不变"
+        },
+        {
+          "key": "D",
+          "text": "起动转矩变大"
+        }
+      ],
+      "answer": "AD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 107
+    },
+    {
+      "id": "em-193",
+      "num": 193,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "fill",
+      "stem": "若感应电动机的漏抗增大，则其启动转矩（ ）,其最大转矩（ ）",
+      "options": [],
+      "answer": "减小 减小",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 107
+    },
+    {
+      "id": "em-194",
+      "num": 194,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "fill",
+      "stem": "一台频率为50Hz 的三相感应电动机，用在频率为60Hz 的电源上（电压不变），忽略定子绕组电阻，电动机的最大转矩为原来的（ ），启动转矩变大约为原来的（ ）",
+      "options": [],
+      "answer": "(；6 ) 2 (；6 ) 3；5；5",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 107
+    },
+    {
+      "id": "em-195",
+      "num": 195,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "judge",
+      "stem": "绕线式感应电动机转子串电阻可以增大启动转矩；笼型感应电动机定子串电阻亦可以增大启动转矩。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 107
+    },
+    {
+      "id": "em-196",
+      "num": 196,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "single",
+      "stem": "（2022 届专科）异步电机带恒转距负载，当电源电压下降0.9 倍，则稳定后电机的电磁转距（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "保持不变"
+        },
+        {
+          "key": "B",
+          "text": "下降为0.81 倍"
+        },
+        {
+          "key": "C",
+          "text": "下降为0.9 倍"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 108
+    },
+    {
+      "id": "em-197",
+      "num": 197,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "multi",
+      "stem": "（2023 届本科一批）异步电机带恒转矩负载运行，电压下降5%，稳定运行后。电磁转矩和定子侧电流的变化（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "定子侧电流增大"
+        },
+        {
+          "key": "B",
+          "text": "定子侧电流减小"
+        },
+        {
+          "key": "C",
+          "text": "电磁转矩变大"
+        },
+        {
+          "key": "D",
+          "text": "电磁转矩不变"
+        }
+      ],
+      "answer": "AD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 108
+    },
+    {
+      "id": "em-198",
+      "num": 198,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "multi",
+      "stem": "（2023 届本科第二批）异步电动机带恒转矩负载，当电源电压降低时，以下说法正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "定子电流下降"
+        },
+        {
+          "key": "B",
+          "text": "最大转矩下降"
+        },
+        {
+          "key": "C",
+          "text": "转子电流增加"
+        },
+        {
+          "key": "D",
+          "text": "转子转速下降"
+        }
+      ],
+      "answer": "BCD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 108
+    },
+    {
+      "id": "em-199",
+      "num": 199,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "multi",
+      "stem": "（2021 届本科第二批）异步电动机带恒转矩负载，如果机端电压下降，则下列说法正确的有（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "最大电磁转矩不变"
+        },
+        {
+          "key": "B",
+          "text": "输出转矩不变"
+        },
+        {
+          "key": "C",
+          "text": "定子电流变小"
+        },
+        {
+          "key": "D",
+          "text": "转子转速下降"
+        }
+      ],
+      "answer": "BD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 108
+    },
+    {
+      "id": "em-200",
+      "num": 200,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "single",
+      "stem": "一台三相感应电动机拖动额定恒转矩负载运行时，若电源电压下降10%,此时电机的电磁转矩Te 与额定转矩T N 的关系为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "T e =T N"
+        },
+        {
+          "key": "B",
+          "text": "T e =0.81T N"
+        },
+        {
+          "key": "C",
+          "text": "T e =0.9T N"
+        },
+        {
+          "key": "D",
+          "text": "T e >T N 107"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 108
+    },
+    {
+      "id": "em-201",
+      "num": 201,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "judge",
+      "stem": "(2024 届专科)异步机由空载开始，所带负载越重，效率越高，当可变损耗等于不变损耗时，效率达到最大（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 110
+    },
+    {
+      "id": "em-202",
+      "num": 202,
+      "chapter": "第五章 感应电机",
+      "section": "第六节 三相感应电动机转矩一转差率曲线及机械特性",
+      "type": "fill",
+      "stem": "三相异步电动机的负载转矩增加，转差率将（ ）",
+      "options": [],
+      "answer": "变大",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 110
+    },
+    {
+      "id": "em-203",
+      "num": 203,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "fill",
+      "stem": "感应电动机启动时，转差率s=（ ） ,此时启动电流的值比正常运行时要（ ）",
+      "options": [],
+      "answer": "1 大很多",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-204",
+      "num": 204,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "judge",
+      "stem": "三相感应电动机的启动电流很大，所以其启动转矩也很大。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-205",
+      "num": 205,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "single",
+      "stem": "（2023 届本科一批）笼型异步电动机降低启动电流的方法为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "降压启动"
+        },
+        {
+          "key": "B",
+          "text": "转子串电阻启动"
+        },
+        {
+          "key": "C",
+          "text": "变频启动"
+        },
+        {
+          "key": "D",
+          "text": "变极对数启动"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-206",
+      "num": 206,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "judge",
+      "stem": "三相感应电动机的启动电流和启动转矩都与电机所加的电源电压成正比。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-207",
+      "num": 207,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "judge",
+      "stem": "三相绕线式感应电动机在转子回路中串电阻可增大启动转矩，所串电阻越大，启动电流就越小。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-208",
+      "num": 208,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "single",
+      "stem": "适当增加三相绕线式感应电动机转子电阻R2 时，电动机的（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ist 减少，Tst 增加，Tmax 不变，s m 增加"
+        },
+        {
+          "key": "B",
+          "text": "Ist 增加，Tst 增加，Tmax 不变，s m 增加"
+        },
+        {
+          "key": "C",
+          "text": "Ist 减少，Tst 增加，Tmax 增大，s m 增加"
+        },
+        {
+          "key": "D",
+          "text": "Ist 增加，Tst 减少, Tmax 不变，s m 增加"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-209",
+      "num": 209,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "judge",
+      "stem": "三相绕线式感应电动机在转子回路中串电阻可增大启动转矩，所串电阻越大，启动转矩就越大。（ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-210",
+      "num": 210,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "single",
+      "stem": "设计在f1=50Hz 电源上运行的三相感应电动机现改为运行在电压相同频率为60Hz 的电网上，其电动机的（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tst 减小，Tmax 减小，Ist 增大"
+        },
+        {
+          "key": "B",
+          "text": "Tst 减小,Tmax 增大,Ist 减小"
+        },
+        {
+          "key": "C",
+          "text": "Tst 减小，Tmax 减小，Ist 减小"
+        },
+        {
+          "key": "D",
+          "text": "Tst 增大,Tmax 增大,Ist 增大"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-211",
+      "num": 211,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "single",
+      "stem": "绕线式三相感应电动机，转子串适当电阻启动时可使（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "启动转矩增大，启动电流增大"
+        },
+        {
+          "key": "B",
+          "text": "启动转矩增大，启动电流减小"
+        },
+        {
+          "key": "C",
+          "text": "启动转矩增大，启动电流不变"
+        },
+        {
+          "key": "D",
+          "text": "启动转矩减小，启动电流增大"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-212",
+      "num": 212,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "fill",
+      "stem": "绕线式感应电动机转子串入适当的电阻，会使启动电流（ ），启动转矩（ ）",
+      "options": [],
+      "answer": "减小 增大",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-213",
+      "num": 213,
+      "chapter": "第五章 感应电机",
+      "section": "第七节 感应电动机的启动",
+      "type": "fill",
+      "stem": "三相感应电动机，如使启动转矩达到最大，此时sm=（ ）,转子总电阻值约为（ ） 112",
+      "options": [],
+      "answer": "1 X 1σ +X 2σ；‘",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 113
+    },
+    {
+      "id": "em-214",
+      "num": 214,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "judge",
+      "stem": "深槽型和双笼型感应电动机与普通笼型电动机相比，能减小启动电流的同时增大启动转矩。（ ）",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 115
+    },
+    {
+      "id": "em-215",
+      "num": 215,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "fill",
+      "stem": "深槽和双笼型感应电动机是利用（ ）原理来改善电动机的启动性能的，但与普通笼型感应电动机相比，其正常运行时功率因数（ ）",
+      "options": [],
+      "answer": "集肤效应；低",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 115
+    },
+    {
+      "id": "em-216",
+      "num": 216,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "multi",
+      "stem": "（2023 届本科一批）深槽和双笼与普通异步电动机比，优点（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "启动电流小"
+        },
+        {
+          "key": "B",
+          "text": "启动电流大。C 启动转矩小"
+        },
+        {
+          "key": "D",
+          "text": "启动转矩大"
+        }
+      ],
+      "answer": "AD",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 115
+    },
+    {
+      "id": "em-217",
+      "num": 217,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "single",
+      "stem": "双笼感应电动机上笼电阻率较 （ ） 下笼导条电阻率较 （ ）.",
+      "options": [
+        {
+          "key": "A",
+          "text": "大 , 小"
+        },
+        {
+          "key": "B",
+          "text": "小 , 大"
+        },
+        {
+          "key": "C",
+          "text": "一样大"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 115
+    },
+    {
+      "id": "em-218",
+      "num": 218,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "single",
+      "stem": "双笼感应电动机上笼漏电抗较 （ ） ，而下笼漏电抗较 （ ） 。",
+      "options": [
+        {
+          "key": "A",
+          "text": "大 , 小"
+        },
+        {
+          "key": "B",
+          "text": "小 , 大"
+        },
+        {
+          "key": "C",
+          "text": "一样大"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 115
+    },
+    {
+      "id": "em-219",
+      "num": 219,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "single",
+      "stem": "双笼感应电动机启动时，转子电流频率较 （ ）, 运行时转子电流频率较 （ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "高 , 低"
+        },
+        {
+          "key": "B",
+          "text": "低 , 高"
+        },
+        {
+          "key": "C",
+          "text": "无明显差别"
+        },
+        {
+          "key": "D",
+          "text": "一样高"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 115
+    },
+    {
+      "id": "em-220",
+      "num": 220,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "single",
+      "stem": "双笼感应电动机启动时，上、下笼之间电流主要按两个笼的 （ ） 参数成 （ ） 114比分配，电流多集中在电抗小、电阻大的上笼当中可以产生较大的启动转矩。",
+      "options": [
+        {
+          "key": "A",
+          "text": "漏电抗 , 正比"
+        },
+        {
+          "key": "B",
+          "text": "漏电抗 , 反比"
+        },
+        {
+          "key": "C",
+          "text": "电阻 , 正比"
+        },
+        {
+          "key": "D",
+          "text": "电阻 , 反比"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 115
+    },
+    {
+      "id": "em-221",
+      "num": 221,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "single",
+      "stem": "双笼感应电动机正常运行时，漏电抗较 （ ） ，上、下笼间电流分配主要取决于（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "小 , 电阻"
+        },
+        {
+          "key": "B",
+          "text": "大 , 漏电抗"
+        },
+        {
+          "key": "C",
+          "text": "小 , 漏电抗"
+        },
+        {
+          "key": "D",
+          "text": "大 , 电阻"
+        }
+      ],
+      "answer": "A",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 116
+    },
+    {
+      "id": "em-222",
+      "num": 222,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "judge",
+      "stem": "双笼感应电动机通常称上笼为运行笼，下笼为启动笼。 （ ）",
+      "options": [],
+      "answer": "错误",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 116
+    },
+    {
+      "id": "em-223",
+      "num": 223,
+      "chapter": "第五章 感应电机",
+      "section": "第八节 深槽和双笼感应电动机",
+      "type": "single",
+      "stem": "与普通三相感应电动机相比，深槽、双笼型三相感应电动机正常工作时，性能差一些，主要是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "由于R2 增大，增大了损耗"
+        },
+        {
+          "key": "B",
+          "text": "由于X 2σ 减小，使无功电流增大"
+        },
+        {
+          "key": "C",
+          "text": "由于X 2σ 增加，使cosφ 2 下降"
+        },
+        {
+          "key": "D",
+          "text": "由于R2 减小，使输出功率减少"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 116
+    },
+    {
+      "id": "em-224",
+      "num": 224,
+      "chapter": "第五章 感应电机",
+      "section": "第十节 感应电动机的调速",
+      "type": "single",
+      "stem": "三相绕线式感应电动机拖动恒转矩负载运行时，采用转子回路串入电阻调速，运行在不同转速上时，其转子回路电流的大小（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "与转差率成反比"
+        },
+        {
+          "key": "C",
+          "text": "与转差率无关"
+        },
+        {
+          "key": "B",
+          "text": "与转差率成正比"
+        },
+        {
+          "key": "D",
+          "text": "与转差率成某种函数关系"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 121
+    },
+    {
+      "id": "em-225",
+      "num": 225,
+      "chapter": "第五章 感应电机",
+      "section": "第十节 感应电动机的调速",
+      "type": "single",
+      "stem": "一台绕线式感应电动机，在恒定负载下，以转差率s 运行，当转子侧串入电阻R=2 R 2 ‘测得转差率将为（ ）（R 已折算到定子边）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "等于原先的转差率s"
+        },
+        {
+          "key": "B",
+          "text": "3 倍于原先的转差率s"
+        },
+        {
+          "key": "C",
+          "text": "2 倍于原先的转差率s"
+        },
+        {
+          "key": "D",
+          "text": "无法确定"
+        }
+      ],
+      "answer": "B",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 121
+    },
+    {
+      "id": "em-226",
+      "num": 226,
+      "chapter": "第五章 感应电机",
+      "section": "第十节 感应电动机的调速",
+      "type": "judge",
+      "stem": "（2024 届本科第一批） 异步电机的调速方法有变频调速、变极调速和变转差率调速（ ） 120",
+      "options": [],
+      "answer": "正确",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 121
+    },
+    {
+      "id": "em-227",
+      "num": 227,
+      "chapter": "第五章 感应电机",
+      "section": "第十一节 三相感应电机运行中的断线问题",
+      "type": "single",
+      "stem": "（2021 届第二批本科）异步电动机电源一相断线时，下列说法正确的是（ ） 121",
+      "options": [
+        {
+          "key": "A",
+          "text": "Y 形接线时，可以正常起动"
+        },
+        {
+          "key": "B",
+          "text": "三角形接线时，可以正常起动"
+        },
+        {
+          "key": "C",
+          "text": "YN 接线时，可以正常起动"
+        },
+        {
+          "key": "D",
+          "text": "三角形接线时，起动转矩不为零"
+        }
+      ],
+      "answer": "C",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 122
+    },
+    {
+      "id": "em-228",
+      "num": 228,
+      "chapter": "第五章 感应电机",
+      "section": "第十一节 三相感应电机运行中的断线问题",
+      "type": "single",
+      "stem": "（2022 届本科一批）感应电动机定子绕组Y 接线，绕组一相断线时电机能否起动（ ），电源一相断线时电机能否起动（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "能、能"
+        },
+        {
+          "key": "B",
+          "text": "能、不能"
+        },
+        {
+          "key": "C",
+          "text": "不能、能"
+        },
+        {
+          "key": "D",
+          "text": "不能、不能 122"
+        }
+      ],
+      "answer": "D",
+      "explanation": "",
+      "images": [],
+      "answerImages": [],
+      "page": 123
+    }
+  ]
+}
