@@ -71,6 +71,123 @@
       .replace(/'/g, '&#39;');
   }
 
+  // Zero-dependency LaTeX-subset math renderer for stacked fractions, roots, and sub/sup
+  const MATH_SYMS = {
+    alpha: 'α', beta: 'β', gamma: 'γ', delta: 'δ', theta: 'θ',
+    lambda: 'λ', mu: 'μ', pi: 'π', rho: 'ρ', sigma: 'σ',
+    phi: 'φ', varphi: 'φ', omega: 'ω', Delta: 'Δ', Sigma: 'Σ',
+    Phi: 'Φ', Omega: 'Ω', cdot: '·', times: '×', pm: '±',
+    approx: '≈', le: '≤', ge: '≥', sim: '～', cdots: '⋯',
+    ldots: '…', infty: '∞', to: '→', circ: '°', '%': '%',
+  };
+
+  function readBracedGroup(src, idx) {
+    while (idx < src.length && src[idx] === ' ') idx++;
+    if (idx >= src.length) return ['', idx];
+    if (src[idx] !== '{') return [src[idx], idx + 1];
+    let depth = 0;
+    let start = idx + 1;
+    let i = idx;
+    while (i < src.length) {
+      if (src[i] === '{') depth++;
+      else if (src[i] === '}') {
+        depth--;
+        if (depth === 0) return [src.slice(start, i), i + 1];
+      }
+      i++;
+    }
+    return [src.slice(start), src.length];
+  }
+
+  function renderMathExpr(expr) {
+    let out = '';
+    let i = 0;
+    const s = String(expr || '');
+    while (i < s.length) {
+      const ch = s[i];
+      if (ch === ' ' || ch === '\t') {
+        i++;
+        continue;
+      }
+      if (ch === '\\') {
+        const m = s.slice(i + 1).match(/^([a-zA-Z]+|.)/);
+        const cmd = m ? m[1] : '';
+        i += 1 + cmd.length;
+        if (cmd === 'frac') {
+          const [num, next1] = readBracedGroup(s, i);
+          const [den, next2] = readBracedGroup(s, next1);
+          i = next2;
+          out += `<span class="math-frac"><span class="math-num">${renderMathExpr(num)}</span><span class="math-den">${renderMathExpr(den)}</span></span>`;
+        } else if (cmd === 'sqrt') {
+          const [arg, next1] = readBracedGroup(s, i);
+          i = next1;
+          out += `<span class="math-sqrt"><span class="math-rad">√</span><span class="math-radicand">${renderMathExpr(arg)}</span></span>`;
+        } else if (cmd === 'text') {
+          const [arg, next1] = readBracedGroup(s, i);
+          i = next1;
+          out += `<span class="math-fn">${escapeHtml(arg)}</span>`;
+        } else if (cmd === 'left' || cmd === 'right') {
+          while (i < s.length && s[i] === ' ') i++;
+          const br = s[i] || '';
+          i += br ? 1 : 0;
+          if (br && br !== '.') {
+            out += `<span class="math-paren-tall">${escapeHtml(br)}</span>`;
+          }
+        } else if (['sin', 'cos', 'tan', 'cot', 'log', 'ln'].includes(cmd)) {
+          out += `<span class="math-fn">${cmd}</span>`;
+        } else if (MATH_SYMS[cmd]) {
+          out += `<span class="math-op">${MATH_SYMS[cmd]}</span>`;
+        } else {
+          out += escapeHtml(cmd);
+        }
+        continue;
+      }
+      if (ch === '_' || ch === '^') {
+        const tag = ch === '_' ? 'sub' : 'sup';
+        const [arg, next1] = readBracedGroup(s, i + 1);
+        i = next1;
+        out += `<${tag}>${renderMathExpr(arg)}</${tag}>`;
+        continue;
+      }
+      if (ch === '{' || ch === '}') {
+        i++;
+        continue;
+      }
+      if ('+-=<>'.includes(ch)) {
+        out += `<span class="math-op">${escapeHtml(ch === '-' ? '−' : ch)}</span>`;
+        i++;
+        continue;
+      }
+      if ('()[]'.includes(ch)) {
+        out += `<span class="math-paren">${escapeHtml(ch)}</span>`;
+        i++;
+        continue;
+      }
+      if (/[A-Za-z]/.test(ch)) {
+        out += `<var>${ch}</var>`;
+        i++;
+        continue;
+      }
+      out += escapeHtml(ch);
+      i++;
+    }
+    return out;
+  }
+
+  function renderRichText(str) {
+    const raw = String(str ?? '');
+    if (!raw.includes('$')) return escapeHtml(raw);
+    const parts = raw.split(/(\$[^$]+\$)/g);
+    return parts
+      .map((seg) => {
+        if (seg.length >= 2 && seg.startsWith('$') && seg.endsWith('$')) {
+          return `<span class="math-inline">${renderMathExpr(seg.slice(1, -1))}</span>`;
+        }
+        return escapeHtml(seg);
+      })
+      .join('');
+  }
+
   function loadPersisted() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
@@ -456,7 +573,7 @@
         bodyHtml += `
           <button type="button" class="${cls}" data-opt-key="${escapeHtml(opt.key)}" ${showResult ? 'disabled' : ''}>
             <span class="option-key">${escapeHtml(opt.key)}</span>
-            <span class="option-text">${escapeHtml(opt.text)}</span>
+            <span class="option-text">${renderRichText(opt.text)}</span>
           </button>`;
       }
       bodyHtml += `</div>`;
@@ -566,9 +683,9 @@
           </div>
           <div>
             <strong>标准答案：</strong>
-            <div class="ans-value">${escapeHtml(q.answer)}</div>
+            <div class="ans-value">${renderRichText(q.answer)}</div>
           </div>
-          ${q.explanation ? `<div class="feedback-explain"><strong>解析：</strong>${escapeHtml(q.explanation)}</div>` : ''}
+          ${q.explanation ? `<div class="feedback-explain"><strong>解析：</strong>${renderRichText(q.explanation)}</div>` : ''}
           ${
             q.answerImages && q.answerImages.length
               ? `<div class="ans-images-block">
@@ -591,7 +708,7 @@
           </div>
           <span class="q-num-badge">第 ${q.num} 题</span>
         </div>
-        <h2 class="q-stem">${escapeHtml(q.stem)}</h2>
+        <h2 class="q-stem">${renderRichText(q.stem)}</h2>
         ${renderImagesHtml(q.images, '题目配图')}
         ${bodyHtml}
         ${feedbackHtml}

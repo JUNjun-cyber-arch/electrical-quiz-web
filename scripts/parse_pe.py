@@ -156,8 +156,48 @@ PE_OVERRIDES = {
             {'key': 'D', 'text': '见图 D'},
         ],
     },
+    84: {
+        'options': [
+            {'key': 'A', 'text': '$0.45U_2\\cos\\alpha$'},
+            {'key': 'B', 'text': '$0.45U_2\\frac{1+\\cos\\alpha}{2}$'},
+            {'key': 'C', 'text': '$0.9U_2\\cos\\alpha$'},
+            {'key': 'D', 'text': '$0.9U_2\\frac{1+\\cos\\alpha}{2}$'},
+        ],
+    },
+    85: {
+        'options': [
+            {'key': 'A', 'text': '$0.45U_2\\cos\\alpha$'},
+            {'key': 'B', 'text': '$0.45U_2\\frac{1+\\cos\\alpha}{2}$'},
+            {'key': 'C', 'text': '$0.9U_2\\cos\\alpha$'},
+            {'key': 'D', 'text': '$0.9U_2\\frac{1+\\cos\\alpha}{2}$'},
+        ],
+    },
+    86: {
+        'options': [
+            {'key': 'A', 'text': '$0.9U_2\\cos\\alpha$'},
+            {'key': 'B', 'text': '$1.17U_2\\frac{1+\\cos\\alpha}{2}$'},
+            {'key': 'C', 'text': '$1.17U_2\\cos\\alpha$'},
+            {'key': 'D', 'text': '$0.9U_2\\frac{1+\\cos\\alpha}{2}$'},
+        ],
+    },
+    87: {
+        'options': [
+            {'key': 'A', 'text': '$0.9U_2\\cos\\alpha$'},
+            {'key': 'B', 'text': '$1.17U_2\\frac{1+\\cos\\alpha}{2}$'},
+            {'key': 'C', 'text': '$1.17U_2\\cos\\alpha$'},
+            {'key': 'D', 'text': '$0.675U_2\\left[1+\\cos\\left(\\frac{\\pi}{6}+\\alpha\\right)\\right]$'},
+        ],
+    },
+    88: {
+        'options': [
+            {'key': 'A', 'text': '$1.17U_2\\cos\\alpha$'},
+            {'key': 'B', 'text': '$2.34U_2\\frac{1+\\cos\\alpha}{2}$'},
+            {'key': 'C', 'text': '$2.34U_2\\cos\\alpha$'},
+            {'key': 'D', 'text': '$2.34U_2\\left[1+\\cos\\left(\\frac{\\pi}{3}+\\alpha\\right)\\right]$'},
+        ],
+    },
     91: {
-        'stem': '三相半波全控整流电路带阻感性负载，变压器二次侧相电压有效值为 U₂ = 220V，控制角为 α = 30°，输出的直流电压平均值为（ ）。',
+        'stem': '三相半波全控整流电路带阻感性负载，变压器二次侧相电压有效值为 $U_2 = 220\\text{V}$，控制角为 $\\alpha = 30^\\circ$，输出的直流电压平均值为（ ）。',
         'options': [
             {'key': 'A', 'text': '74.25V'},
             {'key': 'B', 'text': '85.7V'},
@@ -166,7 +206,7 @@ PE_OVERRIDES = {
         ],
     },
     94: {
-        'stem': '三相半波全控整流电路带阻感负载，变压器二次侧相电压有效值为 U₂ = 220V，控制角为 α = 60°，输出的直流电压平均值为（ ）。',
+        'stem': '三相半波全控整流电路带阻感负载，变压器二次侧相电压有效值为 $U_2 = 220\\text{V}$，控制角为 $\\alpha = 60^\\circ$，输出的直流电压平均值为（ ）。',
         'options': [
             {'key': 'A', 'text': '277V'},
             {'key': 'B', 'text': '85.7V'},
@@ -175,45 +215,93 @@ PE_OVERRIDES = {
         ],
     },
     150: {
-        'stem': '单相桥式全控整流电路带电阻负载，电源电压为 u₂(t) = √2 U₂ sin(ωt)，控制角 α = 30° 时触发晶闸管导通。则当（ ）时晶闸管关断，关断的原因为（ ）',
+        'stem': '单相桥式全控整流电路带电阻负载，电源电压为 $u_2(t) = \\sqrt{2}U_2\\sin(\\omega t)$，控制角 $\\alpha = 30^\\circ$ 时触发晶闸管导通。则当（ ）时晶闸管关断，关断的原因为（ ）',
+    },
+    167: {
+        'options': [
+            {'key': 'A', 'text': '$\\frac{\\sqrt{2}}{2}U_2$，$\\frac{\\sqrt{2}}{2}U_2$'},
+            {'key': 'B', 'text': '$\\sqrt{2}U_2$，$\\frac{\\sqrt{2}}{2}U_2$'},
+            {'key': 'C', 'text': '$\\frac{\\sqrt{2}}{2}U_2$，$\\sqrt{2}U_2$'},
+            {'key': 'D', 'text': '$\\sqrt{2}U_2$，$\\sqrt{2}U_2$'},
+        ],
+    },
+    168: {
+        'options': [
+            {'key': 'A', 'text': '$\\frac{\\sqrt{2}}{2}U_2$，$\\frac{\\sqrt{2}}{2}U_2$'},
+            {'key': 'B', 'text': '$\\sqrt{2}U_2$，$\\frac{\\sqrt{2}}{2}U_2$'},
+            {'key': 'C', 'text': '$\\frac{\\sqrt{2}}{2}U_2$，$\\sqrt{2}U_2$'},
+            {'key': 'D', 'text': '$\\sqrt{2}U_2$，$\\sqrt{2}U_2$'},
+        ],
+    },
+    170: {
+        'options': [
+            {'key': 'A', 'text': '$\\frac{\\sqrt{2}}{2}U_2$，$\\frac{\\sqrt{2}}{2}U_2$'},
+            {'key': 'B', 'text': '$\\sqrt{6}U_2$，$\\sqrt{6}U_2$'},
+            {'key': 'C', 'text': '$\\sqrt{6}U_2$，$\\sqrt{2}U_2$'},
+            {'key': 'D', 'text': '$\\sqrt{2}U_2$，$\\sqrt{6}U_2$'},
+        ],
+    },
+    171: {
+        'options': [
+            {'key': 'A', 'text': '$\\frac{\\sqrt{2}}{2}U_2$，$\\frac{\\sqrt{2}}{2}U_2$'},
+            {'key': 'B', 'text': '$\\sqrt{6}U_2$，$\\sqrt{6}U_2$'},
+            {'key': 'C', 'text': '$\\sqrt{6}U_2$，$\\sqrt{2}U_2$'},
+            {'key': 'D', 'text': '$\\sqrt{2}U_2$，$\\sqrt{6}U_2$'},
+        ],
+    },
+    174: {
+        'options': [
+            {'key': 'A', 'text': '是瞬时功率的平均值'},
+            {'key': 'B', 'text': '是瞬时功率的最大峰值'},
+            {'key': 'C', 'text': '是瞬时功率的均方根值'},
+            {'key': 'D', 'text': '是瞬时功率的正、负交变的最大峰值'},
+        ],
     },
     190: {
-        'stem': '三相半波整流，考虑变压器漏感 X_B 的存在，输出电压下降值 ΔU_d 为（ ）',
+        'stem': '三相半波整流，考虑变压器漏感 $X_B$ 的存在，输出电压下降值 $\\Delta U_d$ 为（ ）',
         'options': [
-            {'key': 'A', 'text': '(2 / 2π) X_B I_d'},
-            {'key': 'B', 'text': '(3 / 2π) X_B I_d'},
-            {'key': 'C', 'text': '(4 / 2π) X_B I_d'},
-            {'key': 'D', 'text': '(6 / 2π) X_B I_d'},
+            {'key': 'A', 'text': '$\\frac{2}{2\\pi}X_B I_d$'},
+            {'key': 'B', 'text': '$\\frac{3}{2\\pi}X_B I_d$'},
+            {'key': 'C', 'text': '$\\frac{4}{2\\pi}X_B I_d$'},
+            {'key': 'D', 'text': '$\\frac{6}{2\\pi}X_B I_d$'},
         ],
     },
     195: {
         'options': [
-            {'key': 'A', 'text': 'U_a'},
-            {'key': 'B', 'text': 'U_b'},
-            {'key': 'C', 'text': '(U_a + U_b) / 2'},
-            {'key': 'D', 'text': '(U_a - U_b) / 2'},
+            {'key': 'A', 'text': '$U_a$'},
+            {'key': 'B', 'text': '$U_b$'},
+            {'key': 'C', 'text': '$\\frac{U_a + U_b}{2}$'},
+            {'key': 'D', 'text': '$\\frac{U_a - U_b}{2}$'},
         ],
         'answer': 'C',
+    },
+    204: {
+        'options': [
+            {'key': 'A', 'text': '相位相同'},
+            {'key': 'B', 'text': '相差 $\\frac{\\pi}{6}$'},
+            {'key': 'C', 'text': '相差 $\\frac{\\pi}{3}$'},
+            {'key': 'D', 'text': '相差 $\\pi$'},
+        ],
     },
     209: {
         'type': 'essay',
         'stem': '【单相桥式半控带续流二极管】有一大电感负载采用单相桥式半控带续流二极管的整流电路供电，电路如图所示。负载电阻为 5Ω，输入电压为 220V，晶闸管控制角 α = 60°，求流过晶闸管、二极管的电流平均值及有效值。',
-        'answer': 'U_d = 149V；I_d = 30A；I_VT1,d = 10A；I_VD = 10A；I_VT,rms = 17.3A；I_VD,rms = 17.3A',
+        'answer': '$U_d = 149\\text{V}$；$I_d = 30\\text{A}$；$I_{VT1,d} = 10\\text{A}$；$I_{VD} = 10\\text{A}$；$I_{VT,\\text{rms}} = 17.3\\text{A}$；$I_{VD,\\text{rms}} = 17.3\\text{A}$',
     },
     210: {
         'type': 'essay',
         'stem': '【晶闸管串联的单相桥式半控】有一大电感负载采用单相半控桥式带续流二极管的整流电路供电，电路如图所示。负载电阻为 5Ω，输入电压为 220V，晶闸管控制角 α = 60°，求流过晶闸管、二极管的电流平均值及有效值。',
-        'answer': 'U_d = 149V；I_d = 30A；I_VT1,d = 10A；I_VD = 20A；I_VT,rms = 17.3A；I_VD,rms = 24.5A',
+        'answer': '$U_d = 149\\text{V}$；$I_d = 30\\text{A}$；$I_{VT1,d} = 10\\text{A}$；$I_{VD} = 20\\text{A}$；$I_{VT,\\text{rms}} = 17.3\\text{A}$；$I_{VD,\\text{rms}} = 24.5\\text{A}$',
     },
     211: {
         'type': 'essay',
-        'stem': '【三相桥式全控带反电动势负载】三相桥式全控整流电路，U₂ = 220V，α = π/3。反电动势负载，E_M = 100V，R = 20Ω，L 值极大。计算直流输出电压 U_d、电流 I_d、变压器二次电流有效值 I₂,rms。',
-        'answer': 'U_d = 257.4V；I_d = 7.87A；I₂,rms = 6.43A',
+        'stem': '【三相桥式全控带反电动势负载】三相桥式全控整流电路，$U_2 = 220\\text{V}$，$\\alpha = \\frac{\\pi}{3}$。反电动势负载，$E_M = 100\\text{V}$，$R = 20\\Omega$，$L$ 值极大。计算直流输出电压 $U_d$、电流 $I_d$、变压器二次电流有效值 $I_{2,\\text{rms}}$。',
+        'answer': '$U_d = 257.4\\text{V}$；$I_d = 7.87\\text{A}$；$I_{2,\\text{rms}} = 6.43\\text{A}$',
     },
     212: {
         'type': 'essay',
-        'stem': '【变压器漏抗对整流电路影响】三相桥式全控整流电路，U₂ = 220V，α = 0°。阻感性负载，R = 5Ω，L 值极大。变压器漏抗折算到二次侧为 X_B = 0.3Ω，计算直流输出电压 U_d、电流 I_d、换相压降 ΔU_d、换相重叠角 γ。',
-        'answer': 'U_d = 486.9V；I_d = 97.38A；换相压降 ΔU_d = 27.9V；换相重叠角 γ = 26.93°',
+        'stem': '【变压器漏抗对整流电路影响】三相桥式全控整流电路，$U_2 = 220\\text{V}$，$\\alpha = 0^\\circ$。阻感性负载，$R = 5\\Omega$，$L$ 值极大。变压器漏抗折算到二次侧为 $X_B = 0.3\\Omega$，计算直流输出电压 $U_d$、电流 $I_d$、换相压降 $\\Delta U_d$、换相重叠角 $\\gamma$。',
+        'answer': '$U_d = 486.9\\text{V}$；$I_d = 97.38\\text{A}$；换相压降 $\\Delta U_d = 27.9\\text{V}$；换相重叠角 $\\gamma = 26.93^\\circ$',
     },
     215: {
         'type': 'fill',
@@ -228,45 +316,46 @@ PE_OVERRIDES = {
     250: {
         'type': 'essay',
         'stem': '「数学基础」写出下图单相全桥逆变电路输出方波的傅里叶展开式。',
-        'answer': 'u_o(ωt) = (4 U_d / π) × [ sin(ωt) + (1/3)sin(3ωt) + (1/5)sin(5ωt) + ... ] = (4 U_d / π) Σ_{n=1,3,5,...} (1/n)sin(nωt)',
+        'answer': '$u_o(\\omega t) = \\frac{4U_d}{\\pi}\\left[\\sin(\\omega t) + \\frac{1}{3}\\sin(3\\omega t) + \\frac{1}{5}\\sin(5\\omega t) + \\cdots\\right]$（仅含奇次谐波）',
     },
     261: {
+        'stem': '电压型三相桥式逆变电路，当 VT1、VT2、VT6 导通时，输出 A 相的相电压为（ ）。',
         'options': [
-            {'key': 'A', 'text': '(1/3) U_d'},
-            {'key': 'B', 'text': '-(1/3) U_d'},
-            {'key': 'C', 'text': '(2/3) U_d'},
-            {'key': 'D', 'text': '-(2/3) U_d'},
+            {'key': 'A', 'text': '$\\frac{1}{3}U_d$'},
+            {'key': 'B', 'text': '$-\\frac{1}{3}U_d$'},
+            {'key': 'C', 'text': '$\\frac{2}{3}U_d$'},
+            {'key': 'D', 'text': '$-\\frac{2}{3}U_d$'},
         ],
     },
     262: {
         'stem': '电压型三相桥式逆变电路，当 VT1、VT2、VT6 导通时，输出 B 相的相电压为（ ）。',
         'options': [
-            {'key': 'A', 'text': '(1/3) U_d'},
-            {'key': 'B', 'text': '-(1/3) U_d'},
-            {'key': 'C', 'text': '(2/3) U_d'},
-            {'key': 'D', 'text': '-(2/3) U_d'},
+            {'key': 'A', 'text': '$\\frac{1}{3}U_d$'},
+            {'key': 'B', 'text': '$-\\frac{1}{3}U_d$'},
+            {'key': 'C', 'text': '$\\frac{2}{3}U_d$'},
+            {'key': 'D', 'text': '$-\\frac{2}{3}U_d$'},
         ],
     },
     263: {
         'options': [
-            {'key': 'A', 'text': 'U_d'},
-            {'key': 'B', 'text': '-U_d'},
-            {'key': 'C', 'text': '0'},
-            {'key': 'D', 'text': '-(2/3) U_d'},
+            {'key': 'A', 'text': '$U_d$'},
+            {'key': 'B', 'text': '$-U_d$'},
+            {'key': 'C', 'text': '$0$'},
+            {'key': 'D', 'text': '$-\\frac{2}{3}U_d$'},
         ],
     },
     264: {
         'options': [
-            {'key': 'A', 'text': 'U_d'},
-            {'key': 'B', 'text': '-U_d'},
-            {'key': 'C', 'text': '0'},
-            {'key': 'D', 'text': '-(2/3) U_d'},
+            {'key': 'A', 'text': '$U_d$'},
+            {'key': 'B', 'text': '$-U_d$'},
+            {'key': 'C', 'text': '$0$'},
+            {'key': 'D', 'text': '$-\\frac{2}{3}U_d$'},
         ],
     },
     267: {
         'type': 'essay',
         'stem': '「数学基础」写出下图三相电压型逆变电路（180°导电）相电压阶梯波与线电压矩形波的傅里叶展开式。',
-        'answer': '相电压：u_UN(ωt) = (2 U_d / π) [ sin(ωt) + (1/5)sin(5ωt) + (1/7)sin(7ωt) + (1/11)sin(11ωt) + ... ]（仅含 6k±1 次谐波）\n线电压：u_UV(ωt) = (2√3 U_d / π) [ sin(ωt+30°) - (1/5)sin5(ωt+30°) - (1/7)sin7(ωt+30°) + (1/11)sin11(ωt+30°) + ... ]（仅含 6k±1 次谐波，不含 3 的倍数次谐波）',
+        'answer': '相电压：$u_{UN}(\\omega t) = \\frac{2U_d}{\\pi}\\left[\\sin(\\omega t) + \\frac{1}{5}\\sin(5\\omega t) + \\frac{1}{7}\\sin(7\\omega t) + \\frac{1}{11}\\sin(11\\omega t) + \\cdots\\right]$（仅含 $6k\\pm 1$ 次谐波）\n线电压：$u_{UV}(\\omega t) = \\frac{2\\sqrt{3}U_d}{\\pi}\\left[\\sin(\\omega t+30^\\circ) - \\frac{1}{5}\\sin 5(\\omega t+30^\\circ) - \\frac{1}{7}\\sin 7(\\omega t+30^\\circ) + \\frac{1}{11}\\sin 11(\\omega t+30^\\circ) + \\cdots\\right]$（不含 3 的倍数次谐波）',
     },
     287: {
         'type': 'fill',
@@ -290,33 +379,64 @@ PE_OVERRIDES = {
     },
     305: {
         'type': 'essay',
-        'stem': '在图示的 Boost 升压斩波电路中，已知 U_S = 50V，负载电阻 R = 20Ω，L 值和 C 值极大，采用脉宽调制控制方式，当 T = 40μs，t_on = 25μs 时，计算输出电压平均值 U_o、输出电流平均值 I_o。',
-        'answer': 'U_o = U_S · T / (T - t_on) = 50 × 40 / 15 ≈ 133.3V；I_o = U_o / R ≈ 6.67A',
+        'stem': '在图示的 Boost 升压斩波电路中，已知 $U_S = 50\\text{V}$，负载电阻 $R = 20\\Omega$，$L$ 值和 $C$ 值极大，采用脉宽调制控制方式，当 $T = 40\\mu\\text{s}$，$t_{\\text{on}} = 25\\mu\\text{s}$ 时，计算输出电压平均值 $U_o$、输出电流平均值 $I_o$。',
+        'answer': '$U_o = U_S \\cdot \\frac{T}{T - t_{\\text{on}}} = 50 \\times \\frac{40}{15} \\approx 133.3\\text{V}$；$I_o = \\frac{U_o}{R} \\approx 6.67\\text{A}$',
     },
     306: {
         'type': 'essay',
-        'stem': '在图中的 Buck 降压斩波电路带电动机反电动势负载中，已知 U_S = 200V，R = 10Ω，L 值极大，E_M = 30V。采用脉宽调制控制方式，当 T = 50μs，t_on = 20μs 时，计算输出电压平均值 U_o、输出电流平均值 I_o。',
-        'answer': 'U_o = U_S · (t_on / T) = 200 × (20/50) = 80V；I_o = (U_o - E_M) / R = (80 - 30) / 10 = 5A',
+        'stem': '在图中的 Buck 降压斩波电路带电动机反电动势负载中，已知 $U_S = 200\\text{V}$，$R = 10\\Omega$，$L$ 值极大，$E_M = 30\\text{V}$。采用脉宽调制控制方式，当 $T = 50\\mu\\text{s}$，$t_{\\text{on}} = 20\\mu\\text{s}$ 时，计算输出电压平均值 $U_o$、输出电流平均值 $I_o$。',
+        'answer': '$U_o = U_S \\cdot \\frac{t_{\\text{on}}}{T} = 200 \\times \\frac{20}{50} = 80\\text{V}$；$I_o = \\frac{U_o - E_M}{R} = \\frac{80 - 30}{10} = 5\\text{A}$',
     },
     307: {
         'type': 'fill',
         'stem': '直流斩波电路在改变负载的直流电压时，常用的控制方式有（ ）、（ ）和（ ）三种。',
         'answer': '定频调宽控制(PWM)；等宽调频控制(PFM)；脉宽与频率同时控制(混合调制)',
     },
+    308: {
+        'type': 'single',
+        'answer': 'B',
+    },
     312: {
         'type': 'judge',
         'stem': '单相交流调压电路，带电感性负载时，不能用窄脉冲触发，应采用宽脉冲（ ）。',
         'answer': '正确',
     },
+    313: {
+        'options': [
+            {'key': 'A', 'text': '$\\frac{\\pi}{6}$'},
+            {'key': 'B', 'text': '$\\frac{\\pi}{3}$'},
+            {'key': 'C', 'text': '$\\frac{2\\pi}{3}$'},
+            {'key': 'D', 'text': '$\\frac{\\pi}{2}$'},
+        ],
+    },
     322: {
         'type': 'essay',
-        'stem': '某单相反并联调功电路，采用过零触发控制，负载为大惯性环节。若全导通时电压 U₂ = 220V，负载电阻 R = 1Ω，在设定周期 T_c 内，使晶闸管导通 0.3s，断开 0.2s，计算送到电阻负载上的有效电压 U_o 和平均功率 P。',
-        'answer': 'T_c = 0.3 + 0.2 = 0.5s，占空比 M = 0.3 / 0.5 = 0.6；\n负载电压有效值 U_o = U₂ × √(t_on / T_c) = 220 × √0.6 ≈ 170.41V；\n负载平均功率 P = U_o² / R = (U₂² / R) × (t_on / T_c) = 220² × 0.6 / 1 = 29040W = 29.04kW。',
+        'stem': '某单相反并联调功电路，采用过零触发控制，负载为大惯性环节。若全导通时电压 $U_2 = 220\\text{V}$，负载电阻 $R = 1\\Omega$，在设定周期 $T_c$ 内，使晶闸管导通 $0.3\\text{s}$，断开 $0.2\\text{s}$，计算送到电阻负载上的有效电压 $U_o$ 和平均功率 $P$。',
+        'answer': '$T_c = 0.3 + 0.2 = 0.5\\text{s}$，占空比 $M = \\frac{0.3}{0.5} = 0.6$；\n负载电压有效值 $U_o = U_2 \\sqrt{\\frac{t_{\\text{on}}}{T_c}} = 220 \\times \\sqrt{0.6} \\approx 170.41\\text{V}$；\n负载平均功率 $P = \\frac{U_o^2}{R} = \\frac{U_2^2}{R} \\cdot \\frac{t_{\\text{on}}}{T_c} = 220^2 \\times 0.6 = 29040\\text{W} = 29.04\\text{kW}$。',
+    },
+    325: {
+        'stem': '晶闸管投切电容（Thyristor Switched Capacitor, TSC）是典型的（ ）应用技术。',
     },
     332: {
         'type': 'judge',
         'stem': '交-交直接变频器只能使输出的频率小于输入频率，而不能大于输入频率（ ）。',
         'answer': '正确',
+    },
+    333: {
+        'options': [
+            {'key': 'A', 'text': '$\\frac{1}{6} \\sim \\frac{1}{4}$，10Hz'},
+            {'key': 'B', 'text': '$\\frac{1}{3} \\sim \\frac{1}{2}$，20Hz'},
+            {'key': 'C', 'text': '1 倍，50Hz'},
+            {'key': 'D', 'text': '2～3 倍，100Hz'},
+        ],
+    },
+    334: {
+        'options': [
+            {'key': 'A', 'text': '二者都可以可逆运行，实现功率双向传输'},
+            {'key': 'B', 'text': '交-交变频器最大变频范围为电网频率 $\\frac{1}{2}$ 以下，变频范围有限制'},
+            {'key': 'C', 'text': '交-直-交变频器最大变频范围为电网频率 $\\frac{1}{2}$ 以下，变频范围有限制'},
+            {'key': 'D', 'text': '交-交变频器一般只适用于低速大容量拖动场合'},
+        ],
     },
 }
 
