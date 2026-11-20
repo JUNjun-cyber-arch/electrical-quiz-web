@@ -75,15 +75,23 @@
   const MATH_SYMS = {
     alpha: 'α', beta: 'β', gamma: 'γ', delta: 'δ', theta: 'θ',
     lambda: 'λ', mu: 'μ', pi: 'π', rho: 'ρ', sigma: 'σ',
-    phi: 'φ', varphi: 'φ', omega: 'ω', Delta: 'Δ', Sigma: 'Σ',
+    phi: 'φ', varphi: 'φ', omega: 'ω', eta: 'η', tau: 'τ',
+    Delta: 'Δ', Sigma: 'Σ', sum: 'Σ', int: '∫',
     Phi: 'Φ', Omega: 'Ω', cdot: '·', times: '×', pm: '±',
-    approx: '≈', le: '≤', ge: '≥', sim: '～', cdots: '⋯',
-    ldots: '…', infty: '∞', to: '→', circ: '°', '%': '%',
+    mp: '∓', approx: '≈', le: '≤', leq: '≤', ge: '≥', geq: '≥',
+    ne: '≠', neq: '≠', propto: '∝', angle: '∠', sim: '～',
+    cdots: '⋯', ldots: '…', infty: '∞', to: '→', rightarrow: '→',
+    circ: '°', '%': '%', ',': ' ', ';': ' ', quad: '  ',
   };
 
   function readBracedGroup(src, idx) {
     while (idx < src.length && src[idx] === ' ') idx++;
     if (idx >= src.length) return ['', idx];
+    if (src[idx] === '\\') {
+      const m = src.slice(idx + 1).match(/^([a-zA-Z]+|.)/);
+      const len = 1 + (m ? m[1].length : 0);
+      return [src.slice(idx, idx + len), idx + len];
+    }
     if (src[idx] !== '{') return [src[idx], idx + 1];
     let depth = 0;
     let start = idx + 1;
@@ -133,8 +141,12 @@
           if (br && br !== '.') {
             out += `<span class="math-paren-tall">${escapeHtml(br)}</span>`;
           }
-        } else if (['sin', 'cos', 'tan', 'cot', 'log', 'ln'].includes(cmd)) {
+        } else if (['sin', 'cos', 'tan', 'cot', 'log', 'ln', 'max', 'min', 'rms'].includes(cmd)) {
           out += `<span class="math-fn">${cmd}</span>`;
+        } else if (cmd === 'mathrm' || cmd === 'operatorname') {
+          const [arg, next1] = readBracedGroup(s, i);
+          i = next1;
+          out += `<span class="math-fn">${escapeHtml(arg)}</span>`;
         } else if (MATH_SYMS[cmd]) {
           out += `<span class="math-op">${MATH_SYMS[cmd]}</span>`;
         } else {
@@ -146,7 +158,11 @@
         const tag = ch === '_' ? 'sub' : 'sup';
         const [arg, next1] = readBracedGroup(s, i + 1);
         i = next1;
-        out += `<${tag}>${renderMathExpr(arg)}</${tag}>`;
+        if (ch === '^' && arg.trim() === '\\circ') {
+          out += `<span class="math-deg">°</span>`;
+        } else {
+          out += `<${tag}>${renderMathExpr(arg)}</${tag}>`;
+        }
         continue;
       }
       if (ch === '{' || ch === '}') {
@@ -685,7 +701,7 @@
             <strong>标准答案：</strong>
             <div class="ans-value">${renderRichText(q.answer)}</div>
           </div>
-          ${q.explanation ? `<div class="feedback-explain"><strong>解析：</strong>${renderRichText(q.explanation)}</div>` : ''}
+          ${q.explanation ? `<div class="feedback-explain"><div class="explain-title">💡 解题解析</div><div class="explain-body">${renderRichText(q.explanation)}</div></div>` : ''}
           ${
             q.answerImages && q.answerImages.length
               ? `<div class="ans-images-block">
