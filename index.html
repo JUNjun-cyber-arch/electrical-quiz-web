@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try {
+      var savedScheme = localStorage.getItem("eqw-color-scheme");
+      document.querySelector('meta[name="color-scheme"]').content = savedScheme || "light dark";
+    } catch (e) {}
+  </script>
+  <title>电气专业课在线刷题库 · 电力电子 &amp; 电机学</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%230f5ea8'/><path d='M36 10L16 36h14l-2 18 20-26H34l2-18z' fill='%23fbbf24'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Top Header -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <span class="brand-icon" aria-hidden="true">⚡</span>
+          <div class="brand-text">
+            <h1>电气刷题本</h1>
+            <p class="brand-sub">电力电子 · 电机学</p>
+          </div>
+        </div>
+
+        <nav class="course-tabs" aria-label="课程切换">
+          <button type="button" class="course-tab active" data-course="pe" aria-pressed="true">
+            <span class="tab-title">电力电子</span>
+            <span class="tab-count" id="count-pe">354</span>
+          </button>
+          <button type="button" class="course-tab" data-course="em" aria-pressed="false">
+            <span class="tab-title">电机学</span>
+            <span class="tab-count" id="count-em">228</span>
+          </button>
+        </nav>
+
+        <div class="topbar-actions">
+          <button type="button" class="icon-btn" id="btn-sheet-top" title="答题卡" aria-label="打开答题卡">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          </button>
+          <button type="button" class="icon-btn" id="btn-settings" title="设置与进度备份" aria-label="打开设置">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c.26.6.85 1 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="workspace">
+      <!-- Desktop Sidebar -->
+      <aside class="sidebar" aria-label="章节与进度面板">
+        <div class="stats-card">
+          <div class="stats-row">
+            <div class="stat-item">
+              <span class="stat-val" id="stat-done">0</span>
+              <span class="stat-lbl">已做</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val accent-ok" id="stat-acc">--</span>
+              <span class="stat-lbl">正确率</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val accent-err" id="stat-wrong">0</span>
+              <span class="stat-lbl">错题</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val accent-warn" id="stat-fav">0</span>
+              <span class="stat-lbl">收藏</span>
+            </div>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="section-heading">章节目录</div>
+          <div class="chapter-list" id="sidebar-chapters"></div>
+        </div>
+      </aside>
+
+      <!-- Main Study Column -->
+      <main class="main-col">
+        <!-- Mode + Filter Toolbar -->
+        <section class="control-bar" aria-label="筛选与模式控制">
+          <div class="mode-pills" role="tablist" aria-label="练习模式">
+            <button type="button" class="mode-pill active" data-mode="practice" role="tab" aria-selected="true">刷题</button>
+            <button type="button" class="mode-pill" data-mode="study" role="tab" aria-selected="false">背题</button>
+            <button type="button" class="mode-pill" data-mode="wrong" role="tab" aria-selected="false">错题本 <span class="badge" id="badge-wrong">0</span></button>
+            <button type="button" class="mode-pill" data-mode="fav" role="tab" aria-selected="false">收藏 <span class="badge" id="badge-fav">0</span></button>
+          </div>
+
+          <div class="filter-row">
+            <label class="select-wrap mobile-only-chapter">
+              <span class="sr-only">选择章节</span>
+              <select id="mobile-chapter-select" aria-label="选择章节"></select>
+            </label>
+
+            <label class="select-wrap">
+              <span class="sr-only">筛选题型</span>
+              <select id="type-filter" aria-label="筛选题型">
+                <option value="all">全部题型</option>
+                <option value="single">单选题</option>
+                <option value="multi">多选题</option>
+                <option value="judge">判断题</option>
+                <option value="fill">填空题</option>
+                <option value="essay">计算/例题</option>
+              </select>
+            </label>
+
+            <div class="search-wrap">
+              <input type="search" id="search-input" placeholder="搜关键词/题号…" autocomplete="off" aria-label="搜索题目">
+            </div>
+
+            <button type="button" class="chip-btn" id="btn-shuffle" title="切换乱序刷题" aria-pressed="false">乱序</button>
+          </div>
+
+          <!-- Compact Mobile Stats Strip -->
+          <div class="mobile-stats-strip">
+            <span>已做 <strong id="m-stat-done">0</strong></span>
+            <span>正确率 <strong id="m-stat-acc" class="accent-ok">--</strong></span>
+            <span id="m-progress-text">0 / 0</span>
+          </div>
+        </section>
+
+        <!-- Question Card Stage -->
+        <section class="question-stage" id="question-stage" aria-live="polite">
+          <div class="loading-box" id="loading-box">正在加载题库…</div>
+        </section>
+
+        <!-- Desktop Footer Navigation -->
+        <div class="desktop-nav" id="desktop-nav">
+          <button type="button" class="nav-btn secondary" id="btn-prev-desk">← 上一题</button>
+          <div class="nav-center">
+            <span class="nav-pos" id="nav-pos-desk">1 / 354</span>
+            <button type="button" class="nav-btn ghost" id="btn-fav-desk">☆ 收藏</button>
+            <button type="button" class="nav-btn ghost" id="btn-sheet-desk">答题卡</button>
+          </div>
+          <button type="button" class="nav-btn primary" id="btn-next-desk">下一题 →</button>
+        </div>
+
+        <footer class="site-footer">
+          <p>题库整理自 B 站纪真（十万伏特皮卡丘）《电力电子技术》《电机学》配套资料，仅供个人学习刷题使用 · 进度自动保存在当前浏览器本地，可在右上角设置中导出备份。</p>
+        </footer>
+      </main>
+    </div>
+
+    <!-- Mobile Fixed Bottom Navigation -->
+    <nav class="mobile-dock" aria-label="题目导航">
+      <button type="button" class="dock-btn" id="btn-prev-mob">上一题</button>
+      <button type="button" class="dock-btn icon-stack" id="btn-sheet-mob">
+        <span class="dock-num" id="nav-pos-mob">1/354</span>
+        <span class="dock-sub">答题卡</span>
+      </button>
+      <button type="button" class="dock-btn icon-stack" id="btn-fav-mob">
+        <span class="dock-star" id="dock-star">☆</span>
+        <span class="dock-sub">收藏</span>
+      </button>
+      <button type="button" class="dock-btn primary" id="btn-next-mob">下一题</button>
+    </nav>
+  </div>
+
+  <!-- Answer Sheet Dialog -->
+  <dialog id="sheet-dialog" class="modal-dialog sheet-dialog" closedby="any" aria-labelledby="sheet-title">
+    <div class="modal-header">
+      <div>
+        <h2 id="sheet-title">答题卡</h2>
+        <p class="modal-sub" id="sheet-subtitle">点击题号快速跳转</p>
+      </div>
+      <button type="button" class="close-btn" data-close-dialog="sheet-dialog" aria-label="关闭答题卡">✕</button>
+    </div>
+    <div class="sheet-legend">
+      <span><i class="dot ok"></i>答对</span>
+      <span><i class="dot err"></i>答错</span>
+      <span><i class="dot cur"></i>当前</span>
+      <span><i class="dot un"></i>未做</span>
+    </div>
+    <div class="sheet-grid" id="sheet-grid"></div>
+  </dialog>
+
+  <!-- Settings & Backup Dialog -->
+  <dialog id="settings-dialog" class="modal-dialog" closedby="any" aria-labelledby="settings-title">
+    <div class="modal-header">
+      <div>
+        <h2 id="settings-title">设置与进度同步</h2>
+        <p class="modal-sub">支持电脑与手机间导入/导出做题记录</p>
+      </div>
+      <button type="button" class="close-btn" data-close-dialog="settings-dialog" aria-label="关闭设置">✕</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="setting-group">
+        <label class="setting-label">外观主题</label>
+        <div class="segmented" role="radiogroup" aria-label="主题选择">
+          <button type="button" class="seg-btn" data-theme-choice="system">跟随系统</button>
+          <button type="button" class="seg-btn" data-theme-choice="light">浅色</button>
+          <button type="button" class="seg-btn" data-theme-choice="dark">深色</button>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <label class="toggle-row">
+          <span>单选/判断题点击选项后立即判分</span>
+          <input type="checkbox" id="opt-instant" checked>
+        </label>
+        <label class="toggle-row">
+          <span>答对后自动跳到下一题（0.7秒）</span>
+          <input type="checkbox" id="opt-autonext">
+        </label>
+      </div>
+
+      <div class="setting-group">
+        <label class="setting-label">跨设备同步进度</label>
+        <div class="btn-row">
+          <button type="button" class="action-btn" id="btn-export-file">导出进度文件 (.json)</button>
+          <button type="button" class="action-btn" id="btn-import-trigger">导入进度文件</button>
+          <input type="file" id="import-file-input" accept="application/json,.json" hidden>
+        </div>
+        <p class="hint-text">电脑快捷键：<code>←</code> / <code>→</code> 切题，<code>1–4</code> 选 A–D，<code>Enter</code> 提交多选或填空。</p>
+      </div>
+
+      <div class="setting-group danger-zone">
+        <label class="setting-label">重置当前课程进度</label>
+        <div class="btn-row">
+          <button type="button" class="action-btn danger" id="btn-reset-course">清空当前课程答题记录</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Image Lightbox Dialog -->
+  <dialog id="lightbox-dialog" class="lightbox-dialog" closedby="any" aria-label="查看大图">
+    <div class="lightbox-bar">
+      <div class="lightbox-zoom-controls">
+        <button type="button" class="lb-btn" id="lb-zoom-out" aria-label="缩小">－</button>
+        <span id="lb-zoom-label">100%</span>
+        <button type="button" class="lb-btn" id="lb-zoom-in" aria-label="放大">＋</button>
+        <button type="button" class="lb-btn" id="lb-zoom-reset">重置</button>
+      </div>
+      <button type="button" class="lb-btn lb-close" data-close-dialog="lightbox-dialog" aria-label="关闭大图">✕ 关闭</button>
+    </div>
+    <div class="lightbox-canvas" id="lightbox-canvas">
+      <img id="lightbox-img" src="" alt="题目配图放大预览">
+    </div>
+  </dialog>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
