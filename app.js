@@ -190,16 +190,22 @@
     return out;
   }
 
+  function renderPlainSegment(seg) {
+    return escapeHtml(seg)
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>');
+  }
+
   function renderRichText(str) {
     const raw = String(str ?? '');
-    if (!raw.includes('$')) return escapeHtml(raw);
+    if (!raw.includes('$')) return renderPlainSegment(raw);
     const parts = raw.split(/(\$[^$]+\$)/g);
     return parts
       .map((seg) => {
         if (seg.length >= 2 && seg.startsWith('$') && seg.endsWith('$')) {
           return `<span class="math-inline">${renderMathExpr(seg.slice(1, -1))}</span>`;
         }
-        return escapeHtml(seg);
+        return renderPlainSegment(seg);
       })
       .join('');
   }
